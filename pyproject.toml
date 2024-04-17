@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "yEscher_saibe3233"
+version = "0.0.2"
+authors = [
+    {name = "Shyam Sai Bethina", email="shyamsaibethina@gmail.com"},
+]
+description = "Analyze the effect of gene knockouts on S. cerevisiae and visualize the results using Escher"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+

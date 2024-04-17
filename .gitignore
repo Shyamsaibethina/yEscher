@@ -1,0 +1,3 @@
+# Ignore dist folder and pyproject.toml
+global-exclude dist
+global-exclude pyproject.toml

@@ -1,0 +1,3 @@
+genes	geneShortName	ncbigene	refseq	uniprot	kegg.genes	ecogene	hprd	asap	ccds	ncbiprotein
+YBR242W		852544	NM_001178590	P38331	sce:YBR242W					NP_009801
+YGL101W	YGK1	852777	NM_001180966	P53144	sce:YGL101W					NP_011414
