@@ -1,3 +1,5 @@
-# Ignore dist folder and pyproject.toml
-global-exclude dist
-global-exclude pyproject.toml
+*dist
+*pyproject.toml
+*.DS_Store
+*logs
+*__pycache__
