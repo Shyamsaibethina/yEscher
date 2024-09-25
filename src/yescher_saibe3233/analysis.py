@@ -2,18 +2,17 @@ import code2.io as io
 from escher import Builder
 from cobra.util.solver import set_objective
 from pytfa.optim.utils import symbol_sum
-from etflMain.etfl.optim.constraints import ModelConstraint
-from etflMain.etfl.analysis.dynamic import compute_center
-from etflMain.etfl.optim.utils import fix_growth, release_growth, safe_optim
+from etfl.etfl.optim.constraints import ModelConstraint
+from etfl.etfl.analysis.dynamic import compute_center
+from etfl.etfl.optim.utils import fix_growth, release_growth, safe_optim
 from time import time
 import pandas as pd
 import numpy as np
 import importlib
-import etflMain
-from etflMain.etfl.io.json import load_json_model
-import sys
+import etfl
+from etfl.etfl.io.json import load_json_model
 
-importlib.reload(etflMain.etfl.io)
+importlib.reload(etfl.etfl.io)
 
 flux_to_set = 'growth'
 # flux_to_set = 'glucose'
@@ -74,16 +73,6 @@ def _chemostat_sim(model):
     return
 
 
-# def _va_sim(model):
-#     model.objective.direction = 'max'
-#     sol_max = safe_optim(model)
-
-#     model.objective.direction = 'min'
-#     sol_min = safe_optim(model)
-
-#     return sol_min, sol_max
-
-
 def _prep_sol(substrate_uptake, model):
 
     ret = {'obj': model.solution.objective_value,
@@ -92,8 +81,6 @@ def _prep_sol(substrate_uptake, model):
            'uptake': -1*model.solution.fluxes[GLC_RXN_ID]
            }
 
-#    for exch in model.exchanges:
-#        ret[exch.id] = model.solution.fluxes.loc[exch.id]
     for rxn in model.reactions:
         ret[rxn.id] = model.solution.fluxes.loc[rxn.id]
     for enz in model.enzymes:
@@ -208,7 +195,6 @@ def knockout(growth_rate=0, knockouts=[], map_file_path="", csv_file_path="", ma
             try:
                 # Finds the value in df that corresponds to the reaction id in the model
                 flux = df.loc[df[df.columns[0]] == rxn.id].iloc[0][1]
-                # print(flux)
 
                 flux_dictionary_name[rxn.annotation['bigg.reaction']] = flux
             except:

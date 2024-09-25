@@ -1,0 +1,3 @@
+[submodule "src/yescher_saibe3233/etfl"]
+	path = src/yescher_saibe3233/etfl
+	url = https://github.com/EPFL-LCSB/etfl.git
