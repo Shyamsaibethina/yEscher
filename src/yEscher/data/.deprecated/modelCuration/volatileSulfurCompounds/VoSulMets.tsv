@@ -1,0 +1,10 @@
+metNames	comps	formula	charge	inchi	metNotes	kegg.compound	chebi	pubchem.compound	metanetx.chemical	seed.compound	bigg.metabolite	biocyc	envipath	lipidmaps	reactome	sabiork.compound	slm
+hydrogen sulfide	e	HS	0			C00283	CHEBI:16136		MNXM124865		h2s	HS					
+hydrogen sulfide	c	HS	0			C00283	CHEBI:16136		MNXM124865		h2s	HS					
+hydrogen sulfide	m	HS	0			C00283	CHEBI:16136		MNXM124865		h2s	HS					
+3-mercaptopyruvate	c	C3H4O3S	0			C00957	CHEBI:16208		MNXM1214		mercppyr	3-MERCAPTO-PYRUVATE					
+alkanesulfonate	c	CH3O3SR	0			C15521	CHEBI:62081		MNXM729199			Alkanesulfonates					
+alkanesulfonate	e	CH3O3SR	0			C15521	CHEBI:62081		MNXM729199			Alkanesulfonates					
+taurocholate	c	C26H45NO7S	0			C05122	CHEBI:28865		MNXM1104296		tchola	CPD-3743					
+taurocholate	e	C26H45NO7S	0			C05122	CHEBI:28865		MNXM1104296		tchola	CPD-3743					
+trithionate	c	S3O6	-2			C01861	ChEBI:15987		MNXM1871		tton	CPD-552					

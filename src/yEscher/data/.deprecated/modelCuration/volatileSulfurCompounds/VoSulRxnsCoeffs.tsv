@@ -1,0 +1,35 @@
+rxnNames	metNames	comps	coefficient
+hydrogen sulfide transport	hydrogen sulfide	c	-1
+hydrogen sulfide transport	hydrogen sulfide	e	1
+"L-cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)"	L-cysteine	m	-1
+"L-cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)"	H2O	m	-1
+"L-cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)"	hydrogen sulfide	m	1
+"L-cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)"	pyruvate	m	1
+"L-cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)"	ammonium	m	1
+L-cysteine:2-oxoglutarate aminotransferase	L-cysteine	c	-1
+L-cysteine:2-oxoglutarate aminotransferase	2-oxoglutarate	c	-1
+L-cysteine:2-oxoglutarate aminotransferase	3-mercaptopyruvate	c	1
+L-cysteine:2-oxoglutarate aminotransferase	 L-glutamate	c	1
+3-mercaptopyruvate sulfurtransferase	3-mercaptopyruvate	c	-1
+3-mercaptopyruvate sulfurtransferase	TRX1	c	-1
+3-mercaptopyruvate sulfurtransferase	pyruvate	c	1
+3-mercaptopyruvate sulfurtransferase	hydrogen sulfide	c	1
+3-mercaptopyruvate sulfurtransferase	TRX1 disulphide	c	1
+alkanesulfonate transport	alkanesulfonate	e	-1
+alkanesulfonate transport	alkanesulfonate	c	1
+taurocholate transport	taurocholate	e	-1
+taurocholate transport	taurocholate	c	1
+alkanesulfonate dioxygenase	alkanesulfonate	c	-1
+alkanesulfonate dioxygenase	2-oxoglutarate	c	-1
+alkanesulfonate dioxygenase	oxygen	c	-1
+alkanesulfonate dioxygenase	sulphite	c	1
+alkanesulfonate dioxygenase	aminoacetaldehyde	c	1
+alkanesulfonate dioxygenase	succinate	c	1
+alkanesulfonate dioxygenase	carbon dioxide	c	1
+trithionate thiosulfohydrolase	trithionate	c	-1
+trithionate thiosulfohydrolase	H2O	c	-1
+trithionate thiosulfohydrolase	thiosulfate	c	1
+trithionate thiosulfohydrolase	sulphate	c	1
+hydrogen sulfide exchange	hydrogen sulfide	e	-1
+alkanesulfonate exchange	alkanesulfonate	e	-1
+taurocholate exchange	taurocholate	e	-1

@@ -1,0 +1,113 @@
+rxnNames	metNames	comps	coefficient
+ethyl-(2S)-lactate esterase, c	H+	c	-1
+ethyl-(2S)-lactate esterase, c	ethanol	c	-1
+ethyl-(2S)-lactate esterase, c	(S)-lactate	c	-1
+ethyl-(2S)-lactate esterase, c	ethyl (2S)-lactate	c	1
+ethyl-(2S)-lactate esterase, c	H2O	c	1
+ethyl-(2R)-lactate esterase, c	H+	c	-1
+ethyl-(2R)-lactate esterase, c	ethanol	c	-1
+ethyl-(2R)-lactate esterase, c	(R)-lactate	c	-1
+ethyl-(2R)-lactate esterase, c	ethyl (2R)-lactate	c	1
+ethyl-(2R)-lactate esterase, c	H2O	c	1
+diethyl-succinate esterase, c	H+	c	-2
+diethyl-succinate esterase, c	ethanol	c	-2
+diethyl-succinate esterase, c	succinate	c	-1
+diethyl-succinate esterase, c	diethyl succinate	c	1
+diethyl-succinate esterase, c	H2O	c	2
+monoethyl-succinate esterase, c	H+	c	-1
+monoethyl-succinate esterase, c	ethanol	c	-1
+monoethyl-succinate esterase, c	succinate	c	-1
+monoethyl-succinate esterase, c	monoethyl succinate	c	1
+monoethyl-succinate esterase, c	H2O	c	1
+ethyl-benzoate esterase, c	H+	c	-1
+ethyl-benzoate esterase, c	ethanol	c	-1
+ethyl-benzoate esterase, c	Benzoate	c	-1
+ethyl-benzoate esterase, c	ethyl benzoate	c	1
+ethyl-benzoate esterase, c	H2O	c	1
+ethyl-pyruvate esterase, c	H+	c	-1
+ethyl-pyruvate esterase, c	ethanol	c	-1
+ethyl-pyruvate esterase, c	pyruvate	c	-1
+ethyl-pyruvate esterase, c	ethyl pyruvate	c	1
+ethyl-pyruvate esterase, c	H2O	c	1
+benzyl-acetate esterase, c	H+	c	-1
+benzyl-acetate esterase, c	acetate	c	-1
+benzyl-acetate esterase, c	benzyl alcohol	c	-1
+benzyl-acetate esterase, c	benzyl acetate	c	1
+benzyl-acetate esterase, c	H2O	c	1
+isobutyraldehyde dehydrogenase, c	isobutyraldehyde	c	-1
+isobutyraldehyde dehydrogenase, c	NAD	c	-1
+isobutyraldehyde dehydrogenase, c	H2O	c	-1
+isobutyraldehyde dehydrogenase, c	isobutyrate	c	1
+isobutyraldehyde dehydrogenase, c	NADH	c	1
+isobutyraldehyde dehydrogenase, c	H+	c	2
+2-methylbutanal dehydrogenase, c	NAD	c	-1
+2-methylbutanal dehydrogenase, c	H2O	c	-1
+2-methylbutanal dehydrogenase, c	2-methylbutanal	c	-1
+2-methylbutanal dehydrogenase, c	2-methylbutyrate	c	1
+2-methylbutanal dehydrogenase, c	NADH	c	1
+2-methylbutanal dehydrogenase, c	H+	c	2
+ethyl-isobutyrate esterase, c	H+	c	-1
+ethyl-isobutyrate esterase, c	ethanol	c	-1
+ethyl-isobutyrate esterase, c	isobutyrate	c	-1
+ethyl-isobutyrate esterase, c	ethyl isobutyrate	c	1
+ethyl-isobutyrate esterase, c	H2O	c	1
+ethyl-2-methylbutyrate esterase, c	H+	c	-1
+ethyl-2-methylbutyrate esterase, c	ethanol	c	-1
+ethyl-2-methylbutyrate esterase, c	2-methylbutyrate	c	-1
+ethyl-2-methylbutyrate esterase, c	ethyl 2-methylbutyrate	c	1
+ethyl-2-methylbutyrate esterase, c	H2O	c	1
+polyphosphate polymerase, c	ATP	c	-2
+polyphosphate polymerase, c	H2O	c	-1
+polyphosphate polymerase, c	H+	c	1
+polyphosphate polymerase, c	polyphosphate	v	1
+polyphosphate phosphohydrolase, v	H2O	v	-1
+polyphosphate phosphohydrolase, v	polyphosphate	v	-1
+polyphosphate phosphohydrolase, v	H+	v	1
+polyphosphate phosphohydrolase, v	phosphate	v	2
+polyphosphate phosphohydrolase, m	H2O	m	-1
+polyphosphate phosphohydrolase, m	polyphosphate	m	-1
+polyphosphate phosphohydrolase, m	H+	m	1
+polyphosphate phosphohydrolase, m	phosphate	m	2
+polyphosphate phosphohydrolase, n	H2O	n	-1
+polyphosphate phosphohydrolase, n	polyphosphate	n	-1
+polyphosphate phosphohydrolase, n	H+	n	1
+polyphosphate phosphohydrolase, n	phosphate	n	2
+ethyl-(2S)-lactate transport	ethyl (2S)-lactate	c	-1
+ethyl-(2S)-lactate transport	ethyl (2S)-lactate	e	1
+ethyl-(2S)-lactate exchange	ethyl (2S)-lactate	e	-1
+ethyl-(2R)-lactate transport	ethyl (2R)-lactate	c	-1
+ethyl-(2R)-lactate transport	ethyl (2R)-lactate	e	1
+ethyl-(2R)-lactate exchange	ethyl (2R)-lactate	e	-1
+diethyl-succinate transport	diethyl succinate	c	-1
+diethyl-succinate transport	diethyl succinate	e	1
+diethyl-succinate exchange	diethyl succinate	e	-1
+monoethyl-succinate transport	monoethyl succinate	c	-1
+monoethyl-succinate transport	monoethyl succinate	e	1
+monoethyl-succinate exchange	monoethyl succinate	e	-1
+ethyl-benzoate transport	ethyl benzoate	c	-1
+ethyl-benzoate transport	ethyl benzoate	e	1
+ethyl-benzoate exchange	ethyl benzoate	e	-1
+ethyl-pyruvate transport	ethyl pyruvate	c	-1
+ethyl-pyruvate transport	ethyl pyruvate	e	1
+ethyl-pyruvate exchange	ethyl pyruvate	e	-1
+benzyl-acetate transport	benzyl acetate	c	-1
+benzyl-acetate transport	benzyl acetate	e	1
+benzyl-acetate exchange	benzyl acetate	e	-1
+ethyl-isobutyrate transport	ethyl isobutyrate	c	-1
+ethyl-isobutyrate transport	ethyl isobutyrate	e	1
+ethyl-isobutyrate exchange	ethyl isobutyrate	e	-1
+ethyl-2-methylbutyrate transport	ethyl 2-methylbutyrate	c	-1
+ethyl-2-methylbutyrate transport	ethyl 2-methylbutyrate	e	1
+ethyl-2-methylbutyrate exchange	ethyl 2-methylbutyrate	e	-1
+polyphosphate transport, v-c	polyphosphate	v	-1
+polyphosphate transport, v-c	H+	v	-1
+polyphosphate transport, v-c	polyphosphate	c	1
+polyphosphate transport, v-c	H+	c	1
+polyphosphate transport, c-m	polyphosphate	c	-1
+polyphosphate transport, c-m	H+	c	-1
+polyphosphate transport, c-m	polyphosphate	m	1
+polyphosphate transport, c-m	H+	m	1
+polyphosphate transport, c-n	polyphosphate	c	-1
+polyphosphate transport, c-n	H+	c	-1
+polyphosphate transport, c-n	polyphosphate	n	1
+polyphosphate transport, c-n	H+	n	1

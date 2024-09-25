@@ -1,0 +1,260 @@
+%															
+#for modification of rxnID and/or notation of alternative rxnID 	#Note: rxnID will be removed if the reaction described is significantly different from the reaction in model														
+#model.rxns	model.rxnMetaNetXID	new_MNXRID	alternative_MNXRID	model.rxnKEGGID	new_rxnKEGGID	alternative_rxnKEGGID	Notes	MNXNotes	KEGGNotes						
+r_0001	MNXR106428	MNXR138960	[]	R00197	[]	[]	r_0001: changed MNXRID MNXR106428 to MNXR138960	| MNXRID MNXR106428 is deprecated in MNX database	[]						
+r_0002	MNXR106428	MNXR138960	[]	R00197	[]	[]	r_0002: changed MNXRID MNXR106428 to MNXR138960	| MNXRID MNXR106428 is deprecated in MNX database	[]						
+r_0004	MNXR106427	MNXR138959	[]	R00196	[]	[]	r_0004: changed MNXRID MNXR106427 to MNXR138959	| MNXRID MNXR106427 is deprecated in MNX database	[]						
+r_0005	MNXR107959	MNXR143499	[]	R03118	[]	[]	r_0005: changed MNXRID MNXR107959 to MNXR143499	| MNXRID MNXR107959 is deprecated in MNX database	[]						
+r_0014	MNXR112805	[]	[]	[]	R09377	[]	r_0014: added new rxnKEGGID R09377 into model	[]	| R09377 is linked to MNXR112805 as external resources in MNX database						
+r_0027	MNXR108174	MNXR141287	[]	R03444	[]	[]	r_0027: changed MNXRID MNXR108174 to MNXR141287	| MNXRID MNXR108174 is deprecated in MNX database	[]						
+r_0058	MNXR94889	[]	[]	[]	R02665	[]	r_0058: added new rxnKEGGID R02665 into model	[]	| R02665 is linked to MNXR94889 as external resources in MNX database						
+r_0072	MNXR95033	MNXR137950	[]	[]	[]	[]	r_0072: changed MNXRID MNXR95033 to MNXR137950	| MNXRID MNXR95033 is deprecated in MNX database	[]						
+r_0086	MNXR101445	MNXR125830	[]	R07392	[]	[]	r_0086: changed MNXRID MNXR101445 to MNXR125830	| MNXRID MNXR101445 is deprecated in MNX database	[]						
+r_0093	[]	[]	MNXR112453	[]	[]	R08964	r_0093: alternative MNXRID MNXR112453 found | alternative rxnKEGGID R08964 found	[]	[]						
+r_0179	MNXR95720	MNXR138038	[]	R05685	[]	[]	r_0179: changed MNXRID MNXR95720 to MNXR138038	| MNXRID MNXR95720 is deprecated in MNX database	[]						
+r_0180	MNXR95720	MNXR138038	[]	R05685	[]	[]	r_0180: changed MNXRID MNXR95720 to MNXR138038	| MNXRID MNXR95720 is deprecated in MNX database	[]						
+r_0181	MNXR95721	MNXR138039	[]	R05686	[]	[]	r_0181: changed MNXRID MNXR95721 to MNXR138039	| MNXRID MNXR95721 is deprecated in MNX database	[]						
+r_0188	MNXR95665	MNXR139295	[]	R04620	[]	[]	r_0188: changed MNXRID MNXR95665 to MNXR139295	| MNXRID MNXR95665 is deprecated in MNX database	[]						
+r_0189	MNXR95767	[]	[]	[]	R02422	[]	r_0189: added new rxnKEGGID R02422 into model	[]	| R02422 is linked to MNXR95767 as external resources in MNX database						
+r_0195	MNXR104927	MNXR143415	[]	R00836	[]	[]	r_0195: changed MNXRID MNXR104927 to MNXR143415	| MNXRID MNXR104927 is deprecated in MNX database	[]						
+r_0198	MNXR101717	MNXR101350	[]	R01555	R00028	R06084	r_2116: changed MNXRID MNXR101717 to MNXR101350 | changed rxnKEGGID R01555 to R00028 | alternative rxnKEGGID R06084 found	| Incorrect mets (phosphate and beta-D-glucose 1-phosphate) involved in MNXR101717 | MNXR101350 matches reaction and all MNXMID in r_0198	| R00028 is linked to MNXR101350 as external resources in MNX database | R06084 is linked to R00028						
+r_0207	MNXR95948	MNXR138059	[]	R01086	[]	[]	r_0207: changed MNXRID MNXR95948 to MNXR138059	| MNXRID MNXR95948 is deprecated in MNX database	[]						
+r_0208	MNXR95949	MNXR138060	[]	R01954	[]	[]	r_0208: changed MNXRID MNXR95949 to MNXR138060	| MNXRID MNXR95949 is deprecated in MNX database	[]						
+r_0255	MNXR96455	[]	[]	[]	R00009	[]	r_0255: added new rxnKEGGID R00009 into model	[]	| R00009 is linked to MNXR96455 as external resources in MNX database						
+r_0264	MNXR110315	MNXR126619	MNXR110315	R06517	[]	[]	r_0264: changed MNXRID MNXR110315 to MNXR126619 | alternative MNXRID MNXR110315 found	| Incorrect mets (N-acylsphinganine and an acyl-CoA) involved in MNXR110315 | MNXR110315 matches reaction and all MNXMID in r_0264	[]						
+r_0266	MNXR110323	MNXR126618	MNXR110323	R06527	[]	[]	r_0266: changed MNXRID MNXR110323 to MNXR126618 | alternative MNXRID MNXR110323 found	| Incorrect mets (C26-CoA and N-acyl-4-hydroxysphinganine) involved in MNXR110315 | MNXR110323 matches reaction and all MNXMID in r_0266	[]						
+r_0271	MNXR107444	[]	MNXR96718	R02333	[]	[]	r_0271: alternative MNXRID MNXR96718 found	[]	[]						
+r_0346	MNXR97403	MNXR140043	[]	R02237	[]	[]	r_0346: changed MNXRID MNXR97403 to MNXR140043	| MNXRID MNXR97403 is deprecated in MNX database	[]						
+r_0348	MNXR97679	MNXR126238	[]	R04621	[]	[]	r_0348: changed MNXRID MNXR97679 to MNXR126238	| MNXRID MNXR97679 is deprecated in MNX database	[]						
+r_0350	MNXR107926	MNXR140386	[]	R03066	[]	[]	r_0350: changed MNXRID MNXR107926 to MNXR140386	| MNXRID MNXR107926 is deprecated in MNX database	[]						
+r_0351	MNXR97439	MNXR140085	[]	R03067	[]	[]	r_0351: changed MNXRID MNXR97439 to MNXR140085	| MNXRID MNXR97439 is deprecated in MNX database	[]						
+r_0437	MNXR106340	MNXR138164	[]	R00017	[]	[]	r_0437: changed MNXRID MNXR106340 to MNXR138164	| MNXRID MNXR106340 is deprecated in MNX database	[]						
+r_0438	MNXR106380	MNXR138955	[]	R00081	[]	[]	r_0438: changed MNXRID MNXR106380 to MNXR138955	| MNXRID MNXR106380 is deprecated in MNX database	[]						
+r_0449	MNXR106670	[]	MNXR144209	R00762	[]	[]	r_0449: alternative MNXRID MNXR144209 found	[]	[]						
+r_0467	MNXR106678	[]	MNXR130328	R00771	[]	[]	r_0467: alternative MNXRID MNXR130328 found	[]	[]						
+r_0477	MNXR106675	[]	MNXR124393	R00768	[]	[]	r_0477: alternative MNXRID MNXR124393 found	[]	[]						
+r_0502	MNXR100142	[]	MNXR124474	R00945	[]	[]	r_0502: alternative MNXRID MNXR124474 found	[]	[]						
+r_0503	MNXR100142	[]	MNXR124474	R00945	[]	[]	r_0503: alternative MNXRID MNXR124474 found	[]	[]						
+r_0507	[]	MNXR100068	[]	[]	R04125	[]	r_0507: added new MNXRID MNXR100068 | added new rxnKEGGID R04125 into model	"| MNXR100068 matches reaction and all MNXMID (except MNXM1, added to balance equation) in r_0507"	| R04125 is linked to MNXR100068 as external resource in MNX database						
+r_0510	MNXR100224	MNXR143136	[]	[]	[]	[]	r_0510: changed MNXRID MNXR100224 to MNXR143136	| MNXRID MNXR100224 is deprecated in MNX database	[]						
+r_0518	MNXR95257	[]	MNXR95258	R03482	R05917	[]	r_0518: alternative MNXRID MNXR95258 found | changed rxnKEGGID R03482 to R05917	"| MNXR95258 contains MNXMID MNXM92477 in previous r_0518, which has been replaced by new MNXMID MNXM999 in new r_0518"	"| R05917 is the updated version of R03482, see remarks in KEGG database"						
+r_0541	MNXR95957	MNXR141861	[]	R01159	[]	[]	r_0541: changed MNXRID MNXR95957 to MNXR141861	| MNXRID MNXR95957 is deprecated in MNX database	[]						
+r_0543	MNXR106445	MNXR141692	[]	R00271	[]	[]	r_0543: changed MNXRID MNXR106445 to MNXR141692	| MNXRID MNXR106445 is deprecated in MNX database	[]						
+r_0550	[]	MNXR104815	[]	[]	[]	[]	r_0550: added new MNXRID MNXR104815 into model	| MNXR104815 matches reaction and all MNXMID in r_0550	[]						
+r_0551	[]	MNXR104815	[]	[]	[]	[]	r_0551: added new MNXRID MNXR104815 into model	| MNXR104815 matches reaction and all MNXMID in r_0551	[]						
+r_0552	[]	MNXR104815	[]	[]	[]	[]	r_0552: added new MNXRID MNXR104815 into model	| MNXR104815 matches reaction and all MNXMID in r_0552	[]						
+r_0558	MNXR107304	[]	MNXR100659	R02082	[]	[]	r_0558: alternative MNXRID MNXR100659 found	[]	[]						
+r_0559	MNXR107257	[]	MNXR100660	R01978	[]	[]	r_0559: alternative MNXRID MNXR100660 found	[]	[]						
+r_0723	MNXR106679	[]	MNXR124423	R00772	[]	[]	r_0723: alternative MNXRID MNXR124423 found	[]	[]						
+r_0728	MNXR99604	[]	MNXR124973	R03940	[]	[]	r_0728: alternative MNXRID MNXR124973 found	[]	[]						
+r_0760	MNXR95248	[]	MNXR124394	R02058	[]	[]	r_0760: alternative MNXRID MNXR124394 found	[]	[]						
+r_0763	[]	MNXR101947	[]	[]	[]	[]	r_0763: added new MNXRID MNXR101947 into model	| MNXR101947 matches reaction and all MNXMID in r_0763	[]						
+r_0851	MNXR102631	MNXR126234	[]	R00694	[]	[]	r_0851: changed MNXRID MNXR102631 to MNXR126234	| MNXRID MNXR102631 is deprecated in MNX database	[]						
+r_0854	MNXR103152	MNXR125761	[]	R01377	[]	[]	r_0854: changed MNXRID MNXR103152 to MNXR125761	| MNXRID MNXR103152 is deprecated in MNX database	[]						
+r_0855	MNXR108734	MNXR139261	MNXR108734	R04208	[]	[]	r_0855: changed MNXRID MNXR108734 to MNXR139261 | alternative MNXRID MNXR108734 found	| MNXR139261 is linked to R04208 as external resource in MNX database	[]						
+r_0911	MNXR108735	[]	MNXR136160	R04209	Blank	"R07404, R7405"	"r_0911: alternative MNXRID MNXR136160 found | rxnKEGGID R04209 removed from model | alternative rxnKEGGIDs R07404, R7405 found"	[]	| R4209 removed as it does not match reaction in model						
+r_0920	MNXR110323	MNXR126694	MNXR110323	R06527	[]	[]	r_0920: changed MNXRID MNXR110323 to MNXR126694 | alternative MNXRID MNXR110323 found	"| Incorrect mets (C26-CoA, CoA and N-acyl-4-hydroxysphinganine) involved in MNXR110323 | MNXR126694 matches reaction and all MNXMID (except MNXM2, added to balance eqn) in r_0920"	[]						
+r_0922	MNXR110321	MNXR103263	MNXR110321	R06525	[]	[]	r_0922: changed MNXRID MNXR110321 to MNXR103263 | alternative MNXRID MNXR110321 found	| Incorrect mets (ferricytochrome b5 and ferrocytochrome b5) involved in MNXR110321 | MNXR103263 matches reaction and all MNXMID in r_0922	[]						
+r_0938	MNXR103123	MNXR126086	[]	R01373	[]	[]	r_0938: changed MNXRID MNXR103123 to MNXR126086	| MNXRID MNXR103123 is deprecated in MNX database	[]						
+r_0969	MNXR103431	[]	[]	[]	R01051	[]	r_2113: added new rxnKEGGID R01051 into model	[]	[]						
+r_0970	MNXR104070	[]	MNXR137376	R02014	[]	[]	r_0970: alternative MNXRID MNXR137376 found	[]	[]						
+r_0971	MNXR104076	[]	MNXR137378	R02022	[]	[]	r_0971: alternative MNXRID MNXR137378 found	[]	[]						
+r_0972	MNXR104073	[]	MNXR137377	R02020	[]	[]	r_0972: alternative MNXRID MNXR137377 found	[]	[]						
+r_0973	MNXR104079	[]	MNXR137379	R02023	[]	[]	r_0973: alternative MNXRID MNXR137379 found	[]	[]						
+r_0974	MNXR104060	[]	MNXR137337	R02017	[]	[]	r_0974: alternative MNXRID MNXR137337 found	[]	[]						
+r_0975	MNXR104060	[]	MNXR137337	R02017	[]	[]	r_0975: alternative MNXRID MNXR137337 found	[]	[]						
+r_0976	MNXR104064	[]	MNXR137339	R02024	[]	[]	r_0976: alternative MNXRID MNXR137339 found	[]	[]						
+r_0977	MNXR104064	[]	MNXR137339	R02024	[]	[]	r_0977: alternative MNXRID MNXR137339 found	[]	[]						
+r_0978	MNXR104062	[]	MNXR137338	R02019	[]	[]	r_0978: alternative MNXRID MNXR137338 found	[]	[]						
+r_0979	MNXR104062	[]	MNXR137338	R02019	[]	[]	r_0979: alternative MNXRID MNXR137338 found	[]	[]						
+r_1000	MNXR99636	MNXR129857	MNXR99636	R00408	[]	[]	r_1000: changed MNXRID MNXR99636 to MNXR129857	| Incorrect mets (FAD and FADH2) involved in MNXR99636 | MNXR129857 matches reaction and all MNXMID in r_1000	[]						
+r_1031	MNXR106759	MNXR143412	[]	R00942	[]	[]	r_1031: changed MNXRID MNXR106759 to MNXR143412	| MNXRID MNXR106759 is deprecated in MNX database	[]						
+r_1032	MNXR104817	MNXR138860	[]	[]	[]	[]	r_1032: changed MNXRID MNXR104817 to MNXR138860	| MNXRID MNXR104817 is deprecated in MNX database	[]						
+r_1037	[]	MNXR104815	[]	[]	[]	[]	r_1037: added new MNXRID MNXR104815 into model	| MNXR104815 matches reaction and all MNXMID in r_1037	[]						
+r_1038	MNXR104766	[]	MNXR137353	R02016	[]	[]	r_1038: alternative MNXRID MNXR137353 found	[]	[]						
+r_1039	MNXR104766	[]	MNXR137353	R02016	[]	[]	r_1039: alternative MNXRID MNXR137353 found	[]	[]						
+r_1070	MNXR105057	MNXR143428	[]	[]	R00291	[]	r_1070: changed MNXRID MNXR105057 to MNXR143428 | added new rxnKEGGID R00291 into model	| MNXRID MNXR105057 is deprecated in MNX database	| R00291 is linked to MNXR143428 as external resources in MNX database						
+r_1071	MNXR105090	MNXR143436	[]	R00955	[]	[]	r_1071: changed MNXRID MNXR105090 to MNXR143436	| MNXRID MNXR105090 is deprecated in MNX database	[]						
+r_1084	MNXR100022	MNXR143121	[]	R00289	[]	[]	r_1084: changed MNXRID MNXR100022 to MNXR143121	| MNXRID MNXR100022 is deprecated in MNX database	[]						
+r_1270	MNXR104828	MNXR138863	[]	[]	[]	[]	r_1270: changed MNXRID MNXR104828 to MNXR138863	| MNXRID MNXR104828 is deprecated in MNX database	[]						
+r_1599	MNXR94913	MNXR137944	[]	[]	[]	[]	r_1599: changed MNXRID MNXR94913 to MNXR137944	| MNXRID MNXR94913 is deprecated in MNX database	[]						
+r_1600	MNXR94913	MNXR137944	[]	[]	[]	[]	r_1600: changed MNXRID MNXR94913 to MNXR137944	| MNXRID MNXR94913 is deprecated in MNX database	[]						
+r_1714	MNXR99986	MNXR138465	[]	[]	[]	[]	r_1714: changed MNXRID MNXR99986 to MNXR138465	| MNXRID MNXR99986 is deprecated in MNX database	[]						
+r_1745	MNXR97446	MNXR142733	[]	[]	[]	[]	r_1745: changed MNXRID MNXR97446 to MNXR142733	| MNXRID MNXR97446 is deprecated in MNX database	[]						
+r_1810	MNXR125443	Blank	[]	[]	[]	[]	r_1810: MNXRID MNXR125443 removed from model	| MNXRID MNXR125443 is deprecated in MNX database	[]						
+r_1838	MNXR106445	MNXR141692	[]	[]	[]	[]	r_1838: changed MNXRID MNXR106445 to MNXR141692	| MNXRID MNXR106445 is deprecated in MNX database	[]						
+r_1989	MNXR106490	MNXR125856	[]	[]	[]	[]	r_1989: changed MNXRID MNXR106490 to MNXR125856	| MNXRID MNXR106490 is deprecated in MNX database	[]						
+r_2112	MNXR99596	MNXR132503	MNXR99596	R01959	[]	[]	r_2112: changed MNXRID MNXR99596 to MNXR132503 | alternative MNXRID MNXR99596 found	"| Incorrect mets (N-formyl-L-kynurenine zwitterion, formate, H2O and H+) involved in MNXR99596 | MNXR132503 matches reaction and all MNXMID in r_2112"	[]						
+r_2113	[]	MNXR108341	[]	[]	R03687	[]	r_2113: added new MNXRID MNXR108341 into model | added new rxnKEGGID R03687 into model	[]	| R03687 contains updated information on the reaction which matches r_2113						
+r_2116	MNXR95750	MNXR95749	[]	R00711	R00710	[]	r_2116: changed MNXRID MNXR95750 to MNXR95749 | changed rxnKEGGID R00711 to R00710	| Incorrect mets (NADPH and NADP) involved in MNXR95750 | MNXR95749 matches reaction and all MNXMID in r_2116	[]						
+r_2117	MNXR102631	MNXR125716	[]	R00694	R00692	[]	r_2117: changed MNXRID MNXR102631 to MNXR125716 | changed rxnKEGGID from R00694 to R00692	| MNXRID MNXR102631 is deprecated in MNX database and does not match current model reaction | MNXRID MNXR125716 matches model reaction and all current MNXMIDs	| R00692 is linked to MNXR125716 as external resources in MNX database						
+r_2125	MNXR106428	MNXR138960	[]	R00197	[]	[]	r_2125: changed MNXRID MNXR106428 to MNXR138960	| MNXRID MNXR106428 is deprecated in MNX database	[]						
+r_2147	[]	MNXR137225	[]	[]	[]	[]	r_2147: added new MNXRID MNXR137225 into model	| MNXR137225 matches reaction in r_2147	[]						
+r_2150	[]	MNXR137214	[]	[]	[]	[]	r_2150: added new MNXRID MNXR137214 into model	| MNXR137225 matches reaction (but has an additional H+) in r_2147	[]						
+r_2166	MNXR103459	MNXR118005	[]	[]	[]	[]	r_2166: changed MNXRID MNXR103459 to MNXR118005	| MNXRID MNXR103459 is deprecated in MNX database	[]						
+r_2173	[]	MNXR118009	[]	[]	[]	[]	r_2173: added new MNXRID MNXR118009 into model	| MNXR118009 matches reaction and all MNXMID in r_2173	[]						
+r_2236	[]	MNXR127857	[]	[]	[]	[]	r_2236: added new MNXRID MNXR127857 into model	| MNXR127857 matches reaction and all MNXMID in r_2236	[]						
+r_2237	[]	MNXR127546	[]	[]	[]	[]	r_2237: added new MNXRID MNXR127546 into model	| MNXR127546 matches reaction and all MNXMID in r_2237	[]						
+r_2241	[]	MNXR127548	[]	[]	[]	[]	r_2241: added new MNXRID MNXR127548 into model	| MNXR127548 matches reaction and all MNXMID in r_2241	[]						
+r_2256	[]	MNXR118594	[]	[]	[]	[]	r_2256: added new MNXRID MNXR118594 into model	| MNXR118594 matches reaction and all MNXMID in r_2256	[]						
+r_2259	[]	MNXR118009	[]	[]	[]	[]	r_2259: added new MNXRID MNXR118009 into model	| MNXR118009 matches reaction and all MNXMID in r_2259	[]						
+r_4152	MNXR100594	MNXR138510	[]	R02480	[]	[]	r_4152: changed MNXRID MNXR100594 to MNXR138510	| MNXRID MNXR100594 is deprecated in MNX database	[]						
+r_4186	MNXR101484	[]	MNXR139547	R07606	[]	[]	r_4186: alternative MNXRID MNXR139547 found	[]	[]						
+r_4189	MNXR109090	MNXR143540	[]	R04734	[]	[]	r_4189: changed MNXRID MNXR109090 to MNXR143540	| MNXRID MNXR109090 is deprecated in MNX database	[]						
+r_4199	MNXR108227	MNXR125877	[]	R03522	[]	[]	r_4199: changed MNXRID MNXR108227 to MNXR125877	| MNXRID MNXR108227 is deprecated in MNX database	[]						
+r_4200	MNXR108227	MNXR125877	[]	R03522	[]	[]	r_4200: changed MNXRID MNXR108227 to MNXR125877	| MNXRID MNXR108227 is deprecated in MNX database	[]						
+r_4201	MNXR108227	MNXR125877	[]	R03522	[]	[]	r_4201: changed MNXRID MNXR108227 to MNXR125877	| MNXRID MNXR108227 is deprecated in MNX database	[]						
+r_4205	MNXR102200	MNXR138674	[]	R00251	[]	[]	r_4205: changed MNXRID MNXR102200 to MNXR138674	| MNXRID MNXR102200 is deprecated in MNX database	[]						
+r_4207	MNXR108227	MNXR125877	[]	R03522	[]	[]	r_4207: changed MNXRID MNXR108227 to MNXR125877	| MNXRID MNXR108227 is deprecated in MNX database	[]						
+r_4208	MNXR100442	MNXR138490	[]	R01108	[]	[]	r_4208: changed MNXRID MNXR100442 to MNXR138490	| MNXRID MNXR100442 is deprecated in MNX database	[]						
+r_4209	MNXR100442	MNXR138490	[]	R01108	[]	[]	r_4209: changed MNXRID MNXR100442 to MNXR138490	| MNXRID MNXR100442 is deprecated in MNX database	[]						
+r_4211	MNXR113465	MNXR140225	[]	R10089	[]	[]	r_4211: changed MNXRID MNXR113465 to MNXR140225	| MNXRID MNXR113465 is deprecated in MNX database	[]						
+r_4245	MNXR101397	[]	[]	R09645	Blank	[]	r_4186: rxnKEGGID R09645 removed from model	[]	| R09645 not found in KEGG database						
+r_4252	MNXR114005	MNXR139808	[]	R10685	[]	[]	r_4252: changed MNXRID MNXR114005 to MNXR139808	| MNXRID MNXR114005 is deprecated in MNX database	[]						
+r_4254	MNXR101997	MNXR101996	[]	R05725	R05724	[]	r_4254: changed MNXRID MNXR101997 to MNXR101996 | changed rxnKEGGID R05725 to R05724	| Incorrect mets (NADPH and NADP) involved in MNXR101997 | MNXR101996 matches reaction and all MNXMID in r_4254	| Incorrect mets (NADPH and NADP) involved in R05725 | R05724 matches reaction and all metKEGGID in r_4254						
+r_4326	MNXR96956	MNXR138187	[]	R01931	[]	[]	r_4326: changed MNXRID MNXR96956 to MNXR138187	| MNXRID MNXR96956 is deprecated in MNX database	[]						
+r_4328	MNXR106784	MNXR143462	[]	R01005	[]	[]	r_4328: changed MNXRID MNXR106784 to MNXR143462	| MNXRID MNXR106784 is deprecated in MNX database	[]						
+r_4341	MNXR98598	MNXR100319	[]	[]	[]	[]	r_4341: changed MNXRID MNXR98598 to MNXR100319	| MNXRID MNXR98598 is deprecated in MNX database	[]						
+r_4382	MNXR106345	MNXR138952	[]	[]	[]	[]	r_4382: changed MNXRID MNXR106345 to MNXR138952	| MNXRID MNXR106345 is deprecated in MNX database	[]						
+r_4382	MNXR138952	[]	[]	[]	R00029	[]	r_4382: added new rxnKEGGID R00029 into model	[]	| R00029 is linked to MNXR138952 as external resources in MNX database						
+r_4390	MNXR96247	MNXR142673	[]	[]	[]	[]	r_4390: changed MNXRID MNXR96247 to MNXR142673	| MNXRID MNXR96247 is deprecated in MNX database	[]						
+r_4392	MNXR137048	MNXR144815	[]	[]	[]	[]	r_4392: changed MNXRID MNXR137048 to MNXR144815	| MNXRID MNXR137048 is deprecated in MNX database	[]						
+r_4453	MNXR98531	MNXR99915	[]	[]	[]	[]	r_4453: changed MNXRID MNXR98531 to MNXR99915	| MNXRID MNXR98531 is deprecated in MNX database	[]						
+r_4489	MNXR95187	MNXR137988	[]	R01903	[]	[]	r_4489: changed MNXRID MNXR95187 to MNXR137988	| MNXRID MNXR95187 is deprecated in MNX database	[]						
+r_4494	MNXR98748	MNXR101464	[]	[]	[]	[]	r_4494: changed MNXRID MNXR98748 to MNXR101464	| MNXRID MNXR98748 is deprecated in MNX database	[]						
+r_4568	MNXR110535	MNXR139469	[]	R06790	[]	[]	r_4568: changed MNXRID MNXR110535 to MNXR139469	| MNXRID MNXR110535 is deprecated in MNX database	[]						
+r_4577	MNXR137278	MNXR106867	[]	[]	R01209	[]	r_4577: changed MNXRID MNXR137278 to MNXR106867 | added new rxnKEGGID R01209 into model	"| Incorrect met (3-hydroxy-3-methyl-2-oxobutanoate) involved in MNXR137278 | MNXR106867 found based on metName Dihydroxy-acid dehydratase, mitochondrial | Reference to UniProt P32263"	| R01209 found based on MNXR106867						
+%															
+#for modification of metID and/or notation of alternative metID	"#for lipids, note that the major forms of unsaturated fatty acids found in Saccharomyces cerevisiae are 16:1(9Z) and 18:1(9Z) (PMID: 19174513)"														
+#model.mets	model.metMetaNetXID	new_MNXMID	alternative_MNXMID	model.metKEGGID	new_metKEGGID	alternative_metKEGGID	model.metChEBIID	new_metChEBIID	alternative_metChEBIID	rxn/related rxn(s)	Notes	MNXNotes	KEGGNotes	ChEBINotes	otherDatabaseNotes
+s_0015[c]	MNXM550	MNXM722743	[]	C03406	[]	[]	CHEBI:57472	[]	[]	r_0207	s_0015[c]: changed MNXMID MNXM550 to MNXM722743	| MNXMID MNXM550 is deprecated in MNX database	[]	[]	[]
+s_0117[m]	MNXM848	MNXM114091	[]	C04281	[]	[]	CHEBI:18105	[]	[]	r_0672	s_0117[m]: changed MNXMID MNXM848 to MNXM114091	[]	[]	[]	[]
+s_0218[c]	MNXM36493	MNXM197	[]	C00356	[]	[]	CHEBI:16261	[]	[]	r_0558; r_0559	s_0218[c]: changed MNXMID MNXM36493 to MNXM197	[]	[]	[]	[]
+s_0279[c]	MNXM37435	MNXM1715	[]	[]	C11526	[]	CHEBI:11814	[]	[]	r_0073	s_0279[c]: changed MNXMID MNXM37435 to MNXM1715 | added new metKEGGID C11526 into model	[]	[]	[]	[]
+s_0300[c]	MNXM162266	MNXM388	[]	C03373	[]	[]	CHEBI:52966	[]	[]	r_0855	s_0300[c]: changed MNXMID MNXM162266 to MNXM388	| MNXM388 is linked to C03373 as external resource in MNX database	[]	[]	[]
+s_0306[c]	MNXM90098	MNXM183	[]	C00143	[]	[]	CHEBI:53064	[]	[]	r_0080	s_0306[c]: changed MNXMID MNXM90098 to MNXM183	[]	[]	[]	[]
+s_0308[c]	MNXM317	MNXM723480	[]	C09332	[]	[]	CHEBI:27650	[]	[]	r_1031	s_0308[c]: changed MNXMID MNXM317 to MNXM723480	| MNXMID MNXM317 is deprecated in MNX database	[]	[]	[]
+s_0331[er]	MNXM92477	MNXM999	[]	C01288	[]	[]	CHEBI:52980	[]	[]	r_0518	s_0331[er]: changed MNXMID MNXM92477 to MNXM999	[]	[]	[]	[]
+s_0333[c]	MNXM38670	MNXM1715	[]	[]	C11526	[]	CHEBI:58592	[]	[]	r_0092	s_0333[c]: changed MNXMID MNXM38670 to MNXM1715 | added new metKEGGID C11526 into model	[]	[]	[]	[]
+s_0347[c]	MNXM965	MNXM722728	[]	C00921	[]	[]	CHEBI:17839	[]	[]	r_0346	s_0347[c]: changed MNXMID MNXM965 to MNXM722728	| MNXMID MNXM965 is deprecated in MNX database	[]	[]	[]
+s_0412[c]	MNXM162238	MNXM370	[]	C00352	[]	[]	CHEBI:15873	[]	[]	r_0477 ; r_0760; r_0890	s_0412[c]: changed MNXMID MNXM162238 to MNXM370	[]	[]	[]	[]
+s_0510[ce]	MNXM2106	[]	MNXM48488	C00734	[]	[]	CHEBI:12071	[]	[]	r_0271	s_0510[ce]: alternative MNXMID MNXM48488 found	[]	[]	[]	[]
+s_0555[c]	MNXM500	MNXM417	[]	C00354	[]	[]	CHEBI:57265	[]	[]	r_0449; r_0886	s_0555[c]: changed MNXMID MNXM500 to MNXM417	[]	[]	[]	[]
+s_0556[c]	MNXM1553	MNXM145568	[]	C01094	[]	[]	CHEBI:12071	[]	[]	r_0322	s_0556[c]: changed MNXMID MNXM1553 to MNXM145568	[]	[]	[]	[]
+s_0557[c]	MNXM89629	MNXM162235	[]	C00085	[]	[]	CHEBI:57579	[]	[]	r_0723	s_0557[c]: changed MNXMID MNXM89629 to MNXM162235	[]	[]	[]	[]
+s_0710[m]	MNXM5749	MNXM746	[]	C00126	[]	[]	CHEBI:58509	[]	[]	r_0001	s_0710[m]: changed MNXMID MNXM5749 to MNXM746	| Incorrect MNXMID MNXM5749 (ferricytochrome c) is replaced by MNXM746 (ferrocytochrome c)	[]	[]	[]
+s_0834[m]	MNXM1056	MNXM722779	[]	C01251	[]	[]	CHEBI:36457	[]	[]	r_0027	s_0834[m]: changed MNXMID MNXM1056 to MNXM722779	| MNXMID MNXM1056 is deprecated in MNX database	[]	[]	[]
+s_1035[c]	MNXM114	[]	[]	C04281	C00148	[]	CHEBI:57540	[]	[]	r_0941; r_0957	s_1035[c]: changed metKEGGID C04281 to C00148	[]	[]	[]	[]
+s_1149[m]	MNXM28	MNXM90636	[]	C02430	[]	[]	CHEBI:16928	[]	[]	r_0728	s_1149[m]: changed MNXMID MNXM28 to MNXM90636	"| MNXM90636 is linked to bigg:mettrna as external resource, verified metFormula C5H10NOSR to be correct | MNXM90636 is linked to C02430 as external resource"	[]	[]	[]
+s_1183[c]	MNXM3309	MNXM722872	[]	C01152	[]	[]	CHEBI:27596	[]	[]	r_0541	s_1183[c]: changed MNXMID MNXM3309 to MNXM722872	| MNXMID MNXM3309 is deprecated in MNX database	[]	[]	[]
+s_1185[c]	MNXM63081	MNXM147516	[]	[]	[]	[]	CHEBI:58210	[]	[]	r_0763	s_1185[c]: changed MNXMID MNXM63081 to MNXM147516	"| N N bisformyl dityrosine in MNXM147516 is a traditional IUPAC Name of current metName N,N'-diformyldityrosine, selected as new MNXMID due to correct metFormula C20H22N2O8"	[]	[]	[]
+s_1507[p]	MNXM580	[]	[]	C05275	[]	[]	[]	CHEBI:61406	[]	r_2295	s_1507[p]: added new metChEBIID CHEBI:61406 into model	[]	[]	| New ChEBIID found based on MNXMID MNXM580	[]
+s_1510[p]	MNXM642	[]	[]	C03221	[]	[]	[]	CHEBI:57330	[]	r_2297	s_1510[p]: added new metChEBIID CHEBI:57330 into model	[]	[]	| New ChEBIID found based on MNXMID MNXM642	[]
+s_1543[c]	MNXM52	MNXM722710	[]	C00029	[]	[]	CHEBI:58367	[]	[]	r_0005	s_1543[c]: changed MNXMID MNXM52 to MNXM722710	| MNXMID MNXM52 is deprecated in MNX database	[]	[]	[]
+s_1617[m]	MNXM155	MNXM96993	[]	C00342	[]	[]	CHEBI:15967	CHEBI:15033	[]	r_1039	s_1617[m]: changed MNXMID MNXM155 to MNXM96993 | changed metChEBIID CHEBI:15967 to CHEBI:15033	[]	[]	[]	[]
+s_2777[m]	[]	MNXM10033	[]	C16220	[]	[]	[]	[]	[]	r_2147	s_2777[m]: added new MNXMID MNXM10033 into model	"| MNXM10033 matches metName 3-hydroxyoctanoyl-ACP, found in metabolic network maranas_iSce926_M11"	[]	[]	[]
+s_2780[m]	[]	MNXM23766	[]	C05751	[]	[]	[]	[]	[]	r_2147	s_2780[m]: added new MNXMID MNXM23766 into model	| MNXM23766 is linked to C05751 as external resource	[]	[]	[]
+s_2806[erm]	MNXM163185	MNXM36558	[]	[]	[]	[]	CHEBI:52326	[]	[]	r_2166	s_2806[erm]: changed MNXMID MNXM163185 to MNXM36558	| MNXMID MNXM163185 is deprecated in MNX database	[]	[]	[]
+s_2810[erm]	[]	MNXM581	[]	C05272	[]	[]	[]	[]	[]	r_2169	s_2810[erm]: added new MNXMID MNXM581 into model	| MNXM581 is linked to C05272 as external resource	[]	[]	[]
+s_2812[erm]	[]	MNXM22115	[]	[]	[]	[]	CHEBI:76889	[]	[]	r_2178; r_2239	s_2812[erm]: added new MNXMID MNXM22115 into model	"| MNXM22115 ((2E)-eicosenoyl-CoA) is linked to chebi:75061 as external resource, which is a synonym of metName trans-2-icosenoyl-CoA"	[]	[]	[]
+s_2813[erm]	[]	MNXM97615	[]	[]	[]	[]	CHEBI:75068	[]	[]	r_2172	s_2813[erm]: added new MNXMID MNXM97615 into model	| MNXM97615 matches metName trans-docos-2-enoyl-CoA	[]	[]	[]
+s_2891[p]	[]	MNXM97616	MNXM165192	[]	[]	[]	CHEBI:76453	[]	[]	r_2241	s_2891[p]: added new MNXMID MNXM97616 into model | alternative MNXMID MNXM165192 found	| MNXM97616 is linked to current ChEBIID CHEBI:75068	[]	[]	[]
+s_2892[p]	[]	MNXM146680	[]	[]	[]	[]	CHEBI:76889	CHEBI:78178	[]	r_2260	s_2892[p]: added new MNXMID MNXM146680 into model | changed metChEBIID CHEBI:76889 to CHEBI:78178	| New MNXMID found based on ChEBIID CHEBI:78178	[]	"| Wrong ChEBIID CHEBI:76889 ((9Z,12Z)-hexadecadienoyl-CoA), new ChEBIID CHEBI:78178 ((2E,9Z)-hexadecadienoyl-CoA) is found based on metName trans-2,cis-9-hexadecadienoyl-CoA"	[]
+s_2898[p]	[]	MNXM149511	[]	[]	[]	[]	CHEBI:88008	[]	[]	r_2292	s_2898[p]: added new MNXMID MNXM149511 into model	| New MNXMID found based on ChEBIID CHEBI:88008	[]	[]	[]
+s_2900[p]	[]	MNXM103862	[]	[]	[]	[]	CHEBI:70712	[]	[]	r_2293	s_2900[p]: added new MNXMID MNXM103862 into model	| New MNXMID found based on ChEBIID CHEBI:70712	[]	[]	[]
+s_2905[p]	[]	MNXM36530	[]	[]	[]	[]	CHEBI:73998	[]	[]	r_2274	s_2905[p]: added new MNXMID MNXM36530 into model	| MNXM36530 is linked to current ChEBIID CHEBI:76453 as external resource	[]	[]	[]
+s_2907[p]	[]	MNXM36558	[]	[]	[]	[]	CHEBI:87781	[]	[]	r_2259	s_2907[p]: added new MNXMID MNXM36558 into model	[]	[]	[]	[]
+s_2908[p]	[]	[]	[]	[]	[]	[]	[]	[]	CHEBI:88087	r_2260; r_2277	s_2908[p]: alternative metChEBID CHEBI:88087 found	[]	[]	"| Alternative ChEBIID CHEBI:88087 ((3S,7Z)-3-hydroxyhexadecenoyl-CoA, an isomer) is noted down in model.metNotes "	[]
+s_2911[p]	[]	MNXM149457	[]	[]	[]	[]	CHEBI:75070	[]	[]	r_2263	s_2911[p]: added new MNXMID MNXM149457 into model	| MNXM149457 is linked to current ChEBIID CHEBI:87781 as external resource	[]	[]	[]
+s_2920[p]	[]	[]	[]	[]	[]	[]	CHEBI:53152	[]	CHEBI:88090	r_2277; r_2289	s_2920[p]: alternative metChEBID CHEBI:88090 found	[]	[]	"| Wrong ChEBIID CHEBI:53152 (hexadecenoyl-CoA), alternative ChEBIID CHEBI:88090 ((7Z)-3-oxohexadecenoyl-CoA, an isomer) is noted down in model.metNotes "	[]
+s_2921[p]	[]	[]	[]	[]	[]	[]	[]	[]	CHEBI:88080	r_2278; r_2290	s_2921[p]: alternative metChEBID CHEBI:88080 found	[]	[]	"| Alternative ChEBIID CHEBI:88080 ((5Z)-3-oxotetradecenoyl-CoA, an isomer) is noted down in model.metNotes "	[]
+s_2923[p]	[]	[]	[]	[]	[]	[]	CHEBI:78146	[]	CHEBI:76896	r_2292	s_2923[p]: alternative metChEBID CHEBI:76896 found	[]	[]	"| Wrong ChEBIID CHEBI:78146 (trans-9-octadecenoyl-CoA), alternative ChEBIID CHEBI:76896 ((11Z)-3-oxooctadecenoyl-CoA, an isomer) is noted down in model.metNotes "	[]
+s_2924[p]	[]	MNXM150996	[]	[]	[]	[]	[]	CHEBI:88090	[]	r_2293	s_2924[p]: added new MNXMID MNXM150996 into model | added new metChEBIID CHEBI:88090 into model	| New MNXMID found based on ChEBIID CHEBI:88090	[]	| New ChEBIID found based on model.metName 3-oxo-cis-hexadec-7-enoyl-CoA	[]
+s_2925[p]	[]	MNXM147795	[]	[]	[]	[]	[]	CHEBI:88080	[]	r_2294	s_2925[p]: added new MNXMID MNXM147795 into model | added new metChEBIID CHEBI:88080 into model	| New MNXMID found based on ChEBIID CHEBI:88080	[]	| New ChEBIID found based on model.metName 3-oxo-cis-tetradec-5-enoyl-CoA	[]
+s_2926[p]	[]	MNXM164218	[]	[]	[]	[]	[]	[]	[]	r_2295	| metFormula in MNX database (C31H48N7O17P3S) with metCharge -4 is a conjugate base of cis-dec-3-enoyl-CoA (C31H52N7O17P3S)	| New MNXMID found based on metName cis-dec-3-enoyl-CoA	[]	[]	[]
+s_2927[p]	[]	MNXM3949	[]	[]	[]	[]	CHEBI:27989	[]	[]	r_2294	s_2927[p]: added new MNXMID MNXM3949 into model	| New MNXMID found based on ChEBIID CHEBI:27989	[]	[]	[]
+s_2930[p]	[]	MNXM9966	[]	[]	[]	[]	CHEBI:72001	[]	[]	r_2302	"| metFormula in MNX database (C35H54N7O17P3S) with metCharge -4 is a conjugate base of trans-3,cis-5-tetradecadienoyl-CoA (C35H58N7O17P3S)"	| New MNXMID found based on ChEBIID CHEBI:72001	[]	[]	[]
+s_2931[p]	[]	MNXM7189	[]	[]	[]	[]	CHEBI:88083	[]	[]	r_2300	| metFormula in MNX database (C35H56N7O17P3S) with metCharge -4 is a conjugate base of trans-tetradec-3-enoyl-CoA (C35H60N7O17P3S)	| New MNXMID found based on ChEBIID CHEBI:88083	[]	[]	[]
+s_2933[p]	[]	MNXM147629	[]	[]	[]	[]	CHEBI:88084	[]	[]	r_2302	"| metFormula in MNX database (C35H54N7O17P3S) with metCharge -4 is a conjugate base of trans-2,trans-4-tetradecadienoyl-CoA (C35H58N7O17P3S)"	| New MNXMID found based on ChEBIID CHEBI:88084	[]	[]	[]
+s_2936[erm]	[]	MNXM66496	[]	[]	[]	[]	CHEBI:75071	[]	[]	r_2309	s_2936[erm]: added new MNXMID MNXM66496 into model	| MNXM66496 is linked to current ChEBIID CHEBI:75070 as external resource	[]	[]	[]
+s_2937[erm]	[]	MNXM32950	[]	[]	[]	[]	CHEBI:74850	[]	[]	r_2336	"| Added new MNXMID MNXM32950 into model, for metabolites with metName 1-acyl-sn-glycerol 3-phosphate (18:0) in all compartments"	| metFormula in MNX database (C21H41O7P) with metCharge -2 is a conjugate base of 1-acyl-sn-glycerol 3-phosphate (18:0) (C21H43O7P)	[]	[]	[]
+s_2938[erm]	[]	MNXM32960	[]	[]	[]	[]	CHEBI:62837	[]	[]	r_2338	"| Added new MNXMID MNXM32960 into model, for metabolites with metName 1-acyl-sn-glycerol 3-phosphate (18:1) in all compartments"	| metFormula in MNX database (C21H39O7P) with metCharge -2 is a conjugate base of 1-acyl-sn-glycerol 3-phosphate (18:1) (C21H41O7P)	[]	[]	[]
+s_2941[erm]	[]	[]	[]	[]	[]	[]	CHEBI:74694	Blank	CHEBI:74694	r_2313	s_2941[erm]: alternative metChEBID CHEBI:74694 found	[]	[]	| ChEBIID is removed as it does not correspond to metabolite in model	[]
+s_2954[erm]	[]	MNXM66470	[]	[]	[]	[]	CHEBI:73998	[]	[]	r_2344	"| Added new MNXMID MNXM66470 into model, for metabolites with metName phosphatidate (1-16:0, 2-16:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:73998	[]	| metFormula of ChEBIID CHEBI:73998 (C35H65O7P) with metCharge -2 is a conjugate base of metFormula in model	"| metFormula in model matches LMGP10010911, a conjugate acid of C35H65O8P"
+s_2956[erm]	[]	MNXM66504	[]	[]	[]	[]	CHEBI:75071	[]	[]	r_2346	"| Added new MNXMID MNXM66470 into model, for metabolites with metName phosphatidate (1-16:1, 2-16:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:75071	[]	[]	[]
+s_2957[erm]	[]	MNXM66509	[]	[]	[]	[]	[]	[]	[]	r_2347	"| Added new MNXMID MNXM66509 into model, for metabolites with metName phosphatidate (1-16:1, 2-16:1) in all compartments"	| New MNXMID found based on LMGP10010903	[]	[]	"| metFormula in model matches LMGP10010903, a conjugate acid of C37H69O8P"
+s_2958[erm]	[]	MNXM66631	[]	[]	[]	[]	CHEBI:75073	[]	[]	r_2348	"| Added new MNXMID MNXM66631 into model, for metabolites with metName phosphatidate (1-18:0, 2-16:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:75073	[]	[]	[]
+s_2959[erm]	[]	MNXM66635	[]	[]	[]	[]	CHEBI:74847	[]	[]	r_2349	"| Added new MNXMID MNXM66635 into model, for metabolites with metName phosphatidate (1-18:0, 2-18:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:74847	[]	[]	[]
+s_2960[erm]	[]	MNXM66663	[]	[]	[]	[]	CHEBI:75074	[]	[]	r_2350	"| Added new MNXMID MNXM66663 into model, for metabolites with metName phosphatidate (1-18:1, 2-16:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:75074	[]	[]	[]
+s_2961[erm]	[]	MNXM51075	[]	[]	[]	[]	CHEBI:83775	[]	[]	r_2351	"| Added new MNXMID MNXM51075 into model, for metabolites with metName phosphatidate (1-18:1, 2-18:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:83775	[]	[]	[]
+s_2967[erm]	MNXM32182	MNXM49375	[]	[]	[]	[]	CHEBI:82929	CHEBI:84394	[]	r_2344	"| Changed MNXM32182 to MNXM49375 and change from CHEBI:82929 (diglyceride (1-16:0, 2-16:0)) to CHEBI:84394 (diglyceride (1-16:0, 2-16:1)) in model, for all metabolites with metName diglyceride (1-16:0, 2-16:1)"	"| Wrong MNXMID MNXM32182 (diglyceride (1-16:0, 2-16:0)), new MNXMID MNXM49375 (diglyceride (1-16:0, 2-16:1)) found based on LMGL02010010"	[]	"| Wrong ChEBIID CHEBI:82929 (diglyceride (1-16:0, 2-16:0)), new ChEBIID CHEBI:84394 (diglyceride (1-16:0, 2-16:1)) found based on LMGL02010010"	| Reference to LMGL02010010
+s_2969[erm]	[]	MNXM176611	[]	[]	[]	[]	CHEBI:84417	[]	[]	r_2346	"| Added new MNXMID MNXM17661 into model, for metabolites with metName diglyceride (1-16:1, 2-16:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:84417	[]	[]	[]
+s_2970[erm]	[]	MNXM49417	[]	[]	[]	[]	CHEBI:88500	[]	[]	r_2347	"| Added new MNXMID MNXM49417 into model, for metabolites with metName diglyceride (1-16:1, 2-18:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:88500	[]	[]	[]
+s_2971[erm]	[]	MNXM49511	[]	[]	[]	[]	CHEBI:88527	[]	[]	r_2348	"| Added new MNXMID MNXM49511 into model, for metabolites with metName diglyceride (1-18:0, 2-16:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:88527	[]	[]	[]
+s_2972[erm]	[]	MNXM49514	[]	[]	[]	[]	CHEBI:75468	[]	[]	r_2349	"| Added new MNXMID MNXM49514 into model, for metabolites with metName diglyceride (1-18:0, 2-18:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:75468	[]	[]	[]
+s_2973[erm]	[]	MNXM49575	[]	[]	[]	[]	CHEBI:89229	[]	[]	r_2350	"| Added new MNXMID MNXM49575 into model, for metabolites with metName diglyceride (1-18:1, 2-16:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:89229	[]	[]	[]
+s_2974[erm]	[]	MNXM9533	[]	[]	[]	[]	CHEBI:52333	[]	[]	r_2351	"| Added new MNXMID MNXM9533 into model, for metabolites with metName diglyceride (1-18:1, 2-18:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:52333	[]	[]	[]
+s_3098[mm]	[]	MNXM4508	[]	[]	[]	[]	CHEBI:104012	[]	[]	r_2538	"| metFormula in MNX database (C44H75N3O15P2) with metCharge -2 is a conjugate base of CDP-diacylglycerol (1-16:0, 2-16:1) (C44H77N3O15P2)"	| New MNXMID found based on ChEBIID CHEBI:104012	[]	[]	[]
+s_3109[erm]	[]	MNXM78605	[]	[]	[]	[]	CHEBI:89824	[]	[]	r_2446	s_3109[erm]: added new MNXMID MNXM78605 into model	| New MNXMID found based on ChEBIID CHEBI:89824	[]	[]	[]
+s_3110[erm]	[]	MNXM78637	[]	[]	[]	[]	[]	[]	[]	r_2447	s_3110[erm]: added new MNXMID MNXM78637 into model	| New MNXMID found based on LMGP03010964	[]	[]	| Reference to LMGP03010964
+s_3111[erm]	[]	MNXM78765	[]	[]	[]	[]	CHEBI:90036	[]	[]	r_2448	s_3111[erm]: added new MNXMID MNXM78765 into model	| New MNXMID found based on ChEBIID CHEBI:90036	[]	[]	[]
+s_3112[erm]	[]	MNXM78797	[]	[]	[]	[]	CHEBI:75101	[]	[]	r_2449	s_3112[erm]: added new MNXMID MNXM78797 into model	| New MNXMID found based on ChEBIID CHEBI:75101	[]	[]	[]
+s_3113[erm]	[]	MNXM32501	[]	[]	[]	[]	CHEBI:134541	CHEBI:34086	[]	r_2450	s_3113[erm]: changed MNXMID [] to MNXM32501 | changed metChEBIID CHEBI:134541 to CHEBI:34086	| New MNXMID found based on LMGP03010024 and ChEBIID CHEBI:34086	[]	| New ChEBIID contains external links to more databases e.g. LMGP03010024	| Reference to LMGP03010024
+s_3114[erm]	[]	MNXM78642	[]	[]	[]	[]	CHEBI:90032	[]	[]	r_2451	s_3114[erm]: added new MNXMID MNXM78642 into model	| New MNXMID found based on ChEBIID CHEBI:90032	[]	[]	[]
+s_3115[erm]	[]	MNXM32529	[]	[]	[]	[]	CHEBI:90433	CHEBI:79096	[]	r_2452	s_3115[erm]: changed MNXMID [] to MNXM32529 | changed metChEBIID CHEBI:90433 to CHEBI:79096	| New MNXMID found based on LMGP03010025 and ChEBIID CHEBI:79096	[]	| New ChEBIID contains external links to more databases e.g. LMGP03010025	| Reference to LMGP03010025
+s_3116[erm]	[]	MNXM32173	[]	[]	[]	[]	CHEBI:60568	[]	[]	r_2453	s_3116[erm]: added new MNXMID MNXM32173 into model	| New MNXMID found based on ChEBIID CHEBI:60568	[]	[]	[]
+s_3120[erm]	[]	MNXM75665	[]	[]	[]	[]	CHEBI:88557	[]	[]	r_2462	"| metFormula in MNX database (C43H80O13P) with metCharge -1 is a conjugate base of 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-16:1) (C43H81O13P)"	| New MNXMID found based on ChEBIID CHEBI:88557	[]	[]	[]
+s_3124[erm]	[]	MNXM75671	[]	[]	[]	[]	CHEBI:77346	[]	[]	r_2463	"| metFormula in MNX database (C45H84O13P) with metCharge -1 is a conjugate base of 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) (C45H85O13P)"	| New MNXMID found based on ChEBIID CHEBI:77346	[]	[]	[]
+s_3126[erm]	[]	[]	[]	[]	[]	[]	[]	CHEBI:138108	[]	r_2462	s_3126[erm]: added new metChEBIID CHEBI:138108 into model	[]	[]	| New ChEBIID found based on model.metName sn-2-acyl-1-lysophosphatidylinositol (16:1) - a type of LPI	| Reference to LMGP06050009 to match model.metNames with metabolite name in ChEBIID
+s_3127[erm]	[]	[]	[]	[]	[]	[]	[]	[]	CHEBI:90456	r_2463	s_3127[erm]: alternative metChEBID CHEBI:90456 found	[]	[]	| Alternative ChEBIID found based on model.metName sn-2-acyl-1-lysophosphatidylinositol (18:1) - a type of LPI	[]
+s_3224[mm]	[]	MNXM725269	[]	[]	[]	[]	[]	[]	[]	r_2540	s_3224[mm]: added new MNXMID MNXM725269 into model	| New MNXMID found based on LMGP05010001	[]	[]	| Verified via reference to LMGP05010001
+s_3234[mm]	[]	MNXM120766	[]	[]	[]	[]	[]	[]	[]	r_2548	s_3234[mm]: added new MNXMID MNXM120766 into model	"| New MNXMID found based on metName cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-16:1)"	[]	[]	| Reference to PubChem CID 131766957
+s_3235[mm]	[]	MNXM120775	[]	[]	[]	[]	[]	[]	[]	r_2549	s_3235[mm]: added new MNXMID MNXM120775 into model	"| New MNXMID found based on metName cardiolipin (1-16:0, 2-16:1, 3-16:1, 4-16:1) "	[]	[]	| Reference to PubChem CID 131766970
+s_3236[mm]	[]	MNXM120785	[]	[]	[]	[]	[]	[]	[]	r_2550	s_3236[mm]: added new MNXMID MNXM120785 into model	"| New MNXMID found based on metName cardiolipin (1-16:0, 2-16:1, 3-18:0, 4-16:1)"	[]	[]	| Reference to PubChem CID 131766967
+s_3237[mm]	[]	MNXM120792	[]	[]	[]	[]	[]	[]	[]	r_2551	s_3237[mm]: added new MNXMID MNXM120792 into model	"| New MNXMID found based on metName cardiolipin (1-16:0, 2-16:1, 3-18:1, 4-16:1)"	[]	[]	| Reference to PubChem CID 131766983
+s_3238[mm]	[]	MNXM120768	[]	[]	[]	[]	[]	[]	[]	r_2552	s_3238[mm]: added new MNXMID MNXM120768 into model	"| New MNXMID found based on metName cardiolipin (1-16:0, 2-16:1, 3-16:0, 4-18:1)"	[]	[]	| Reference to PubChem CID 131766959
+s_3239[mm]	[]	MNXM120778	[]	[]	[]	[]	[]	[]	[]	r_2553	s_3239[mm]: added new MNXMID MNXM120778 into model	"| New MNXMID found based on metName cardiolipin (1-16:0, 2-16:1, 3-16:1, 4-18:1)"	[]	[]	| Reference to PubChem CID 131766972
+s_3241[mm]	[]	MNXM4501	MNXM121235	[]	[]	[]	CHEBI:104873	[]	[]	r_2555	s_3241[mm]: added new MNXMID MNXM4501 into model | alternative MNXMID MNXM121235 found	"| New MNXMID found based on ChEBIID CHEBI:104873 | Alternative MNXMID found based on metName cardiolipin (1-16:1, 2-16:1, 3-16:1, 4-16:1)"	[]	[]	[]
+s_3243[mm]	[]	MNXM121254	[]	[]	[]	[]	[]	[]	[]	r_2557	s_3243[mm]: added new MNXMID MNXM121254 into model	"| New MNXMID found based on metName cardiolipin (1-16:1, 2-16:1, 3-18:1, 4-16:1)"	[]	[]	| Reference to PubChem CID 131767800
+s_3245[mm]	[]	MNXM121237	[]	[]	[]	[]	[]	[]	[]	r_2259	s_3245[mm]: added new MNXMID MNXM121237 into model	"| New MNXMID found based on metName cardiolipin (1-16:1, 2-16:1, 3-16:1, 4-18:1)"	[]	[]	| Reference to PubChem CID 131767782
+s_3259[mm]	[]	MNXM120922	[]	[]	[]	[]	[]	[]	[]	r_2573	s_3259[mm]: added new MNXMID MNXM120922 into model	"| New MNXMID found based on metName cardiolipin (1-16:0, 2-18:1, 3-16:1, 4-16:1)"	[]	[]	| Reference to PubChem CID 131767064
+s_3261[mm]	[]	MNXM120940	[]	[]	[]	[]	[]	[]	[]	r_2575	s_3261[mm]: added new MNXMID MNXM120940 into model	"| New MNXMID found based on metName cardiolipin (1-16:0, 2-18:1, 3-18:1, 4-16:1)"	[]	[]	| Reference to PubChem CID 131767077
+s_3263[mm]	[]	MNXM120924	[]	[]	[]	[]	[]	[]	[]	r_2577	s_3263[mm]: added new MNXMID MNXM120924 into model	"| New MNXMID found based on metName cardiolipin (1-16:0, 2-18:1, 3-16:1, 4-18:1)"	[]	[]	| Reference to PubChem CID 131767066
+s_3297[mm]	[]	MNXM32510	[]	[]	[]	[]	[]	CHEBI:72998	[]	r_2812	"| Added new MNXMID MNXM32510 and new metChEBIID CHEBI:72998 into model, for metabolites with metName 1-acylglycerophosphocholine (16:0) in all compartments"	| New MNXMID found based on LMGP01050018	[]	| New ChEBIID found based on MNXM32510	| Reference to LMGP01050018
+s_3299[mm]	[]	MNXM32519	[]	[]	[]	[]	[]	CHEBI:73851	[]	r_2814	"| Added new MNXMID MNXM32519 and new metChEBIID CHEBI:73851 into model, for metabolites with metName 1-acylglycerophosphocholine (16:1) in all compartments"	| New MNXMID found based on LMGP01050022	[]	| New ChEBIID found based on MNXM32519	| Reference to LMGP01050022
+s_3301[mm]	[]	MNXM32545	[]	[]	[]	[]	[]	CHEBI:73858	[]	r_2816	"| Added new MNXMID MNXM32545 and new metChEBIID CHEBI:73858 into model, for metabolites with metName 1-acylglycerophosphocholine (18:0) in all compartments"	| New MNXMID found based on LMGP01050026	[]	| New ChEBIID found based on MNXM32545	| Reference to LMGP01050026
+s_3303[mm]	[]	MNXM13872	[]	[]	[]	[]	[]	CHEBI:28610	[]	r_2818	"| Added new MNXMID MNXM13872 and new metChEBIID CHEBI:28610 into model, for metabolites with metName 1-acylglycerophosphocholine (18:1) in all compartments"	| New MNXMID found based on LMGP01050032	[]	| New ChEBIID found based on MNXM13872	| Reference to LMGP01050032
+s_3358[gm]	[]	MNXM75492	[]	[]	[]	[]	CHEBI:88396	[]	[]	r_3348; r_3428	"| Added new MNXMID MNXM75492 into model for metabolites with metName 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-16:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:49031	[]	[]	[]
+s_3368[gm]	[]	MNXM75499	[]	C13888	[]	[]	CHEBI:73215	[]	[]	r_3448	"| Added new MNXMID MNXM75499 into model, for metabolites with metName 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) in all compartments"	| New MNXMID found based on ChEBIID CHEBI:73215	[]	[]	[]
+s_3452[ce]	[]	MNXM69377	[]	[]	[]	[]	CHEBI:134637	CHEBI:83717	[]	r_3105	"| Added new MNXMID MNXM69377 into model and changed CHEBI:134637 to CHEBI:83717, for metabolites with metName phosphatidylcholine (1-16:1, 2-16:1) in all compartments"	| New MNXMID found based on LMGP01010684	[]	"| New ChEBIID CHEBI:83717 found based on LMGP01010744, same metFormula as CHEBI:134637 but new ChEBIID CHEBI:83717 corresponds to MNXMID with correct metFormula"	| Verified via reference to LMGP01010684
+s_3454[ce]	[]	MNXM69528	[]	[]	[]	[]	CHEBI:89972	CHEBI:86097	[]	r_3106	"| Added new MNXMID MNXM69528 into model and changed CHEBI:89972 to CHEBI:86097, for metabolites with metName phosphatidylcholine (1-18:0, 2-16:1) in all compartments"	| New MNXMID found based on LMGP01010744	[]	"| Wrong ChEBIID CHEBI:89972 (PC(P-18:0/16:1(9Z))), new ChEBIID CHEBI:86097 (PC(18:0/16:1(9Z))) found based on LMGP01010744"	| Verified via reference to LMGP01010744
+s_3456[ce]	[]	MNXM69658	[]	[]	[]	[]	CHEBI:89506	CHEBI:86100	[]	r_3107	"| Added new MNXMID MNXM69658 into model and changed CHEBI:89506 to CHEBI:86100, for metabolites with metName phosphatidylcholine (1-18:1, 2-16:1) in all compartments"	| New MNXMID found based on LMGP01010887	[]	"| Wrong ChEBIID CHEBI:89506 (PC(P-18:1(9Z)/16:1(9Z))), new ChEBIID CHEBI:86100 (PC(18:1(9Z)/16:1(9Z))) found based on LMGP01010887"	| Verified via reference to LMGP01010887
+s_3460[ce]	[]	MNXM69383	[]	[]	[]	[]	CHEBI:89668	CHEBI:84811	[]	r_3109	"| Added new MNXMID MNXM69383 into model and changed CHEBI:89668 to CHEBI:84811, for metabolites with metName phosphatidylcholine (1-16:1, 2-18:1) in all compartments"	| New MNXMID found based on LMGP01010688	[]	"| Wrong ChEBIID CHEBI:89668 (PC(16:1(9Z)/P-18:1(9Z))), new ChEBIID CHEBI:84811 (PC(16:1(9Z)/18:1(9Z))) found based on LMGP01010688"	| Verified via reference to LMGP01010688
+s_3461[ce]	[]	MNXM32526	[]	[]	[]	[]	CHEBI:89679	CHEBI:75034	[]	r_3110	"| Added new MNXMID MNXM32526 into model and changed CHEBI:89679 to CHEBI:75034, for metabolites with metName phosphatidylcholine (1-18:0, 2-18:1) in all compartments"	| New MNXMID found based on LMGP01010761	[]	"| Wrong ChEBIID CHEBI:89679 PC(18:0/P-18:1(9Z)), new ChEBIID CHEBI:75034 (PC(18:0/18:1(9Z))) found based on LMGP01010761"	| Verified via reference to LMGP01010761
+s_3462[ce]	[]	MNXM8549	[]	[]	[]	[]	CHEBI:89504	CHEBI:74669	[]	r_3111	"| Added new MNXMID MNXM8549 into model and changed CHEBI:89504 to CHEBI:74669, for metabolites with metName phosphatidylcholine (1-18:1, 2-18:1) in all compartments"	| New MNXMID found based on LMGP01010890	[]	"| Wrong ChEBIID CHEBI:89504 PC(P-18:1(9Z)/18:1(9Z)), new ChEBIID CHEBI:74669 (PC(18:1(9Z)/18:1(9Z))) found based on LMGP01010890"	| Verified via reference to LMGP01010890
+s_3479[ce]	[]	MNXM78597	[]	[]	[]	[]	[]	[]	[]	r_3058	s_3479[ce]: added new MNXMID MNXM78597 into model	| New MNXMID found via reference to LMGP03050002	[]	[]	| Reference to LMGP03050002
+s_3481[ce]	[]	MNXM78629	[]	[]	[]	[]	[]	[]	[]	r_3059	s_3481[ce]: added new MNXMID MNXM78629 into model	| New MNXMID found via reference to LMGP03050010	[]	[]	| Reference to LMGP03050010
+s_3483[ce]	[]	MNXM78757	[]	[]	[]	[]	[]	CHEBI:85403	[]	r_3060	s_3483[ce]: added new MNXMID MNXM78757 into model	| New MNXMID found via reference to LMGP03050006	[]	| New ChEBIID found via reference to LMGP03050006	| Reference to LMGP03050006
+s_3485[ce]	[]	MNXM32944	[]	[]	[]	[]	[]	CHEBI:52649	[]	r_3061	s_3485[ce]: added new MNXMID MNXM32944 into model	| New MNXMID found via reference to LMGP03050001	[]	| New ChEBIID found via reference to LMGP03050001	| Reference to LMGP03050001
+s_3774[er]	[]	MNXM6479	[]	[]	G00011	[]	[]	[]	[]	r_4271	s_3774[er]: added new MNXMID MNXM6479 into model	[]	|G00011 not added into model due to SPML formatting issue	[]	[]
+s_3807[c]	MNXM2246	MNXM722780	MNXM2246	C15999	[]	[]	[]	[]	[]	r_4186	"s_3807[c]: changed MNXM2246 to MNXM722780, add alternative MNXMID MNXM2246 into model.metNotes"	| MNXM97616 is linked to current KEGGID C15999	[]	[]	[]
+s_3810[c]	MNXM964	MNXM722719	[]	C01879	[]	[]	CHEBI:58402	[]	[]	r_4188	s_3810[c]: changed MNXMID MNXM964 to MNXM722719	| MNXMID MNXM964 is deprecated in MNX database	[]	[]	[]
+s_3847[c]	MNXM89592	MNXM129	[]	C00072	[]	[]	CHEBI:38290	[]	[]	r_4208	s_3847[c]: changed MNXMID MNXM89592 to MNXM129	| MNXMID MNXM89592 is not found in MNX database | MNXMID MNXM129 found via metKEGGID C00072 and metChEBIID CHEBI:38290	[]	[]	[]
+s_3852[c]	MNXM116	MNXM722712	[]	C00117	[]	[]	CHEBI:58273	[]	[]	r_4211	s_3852[c]: changed MNXMID MNXM116 to MNXM722712	| MNXMID MNXM116 is deprecated in MNX database	[]	[]	[]
+s_3887[er]	[]	MNXM9308	[]	[]	G00008	[]	[]	[]	[]	r_4253	s_3887[er]: added new MNXMID MNXM9308 into model	[]	|G00008 not added into model due to SPML formatting issue	[]	[]
+s_3888[er]	[]	MNXM2370	[]	[]	C00621	[]	CHEBI:57497	[]	[]	r_4250	"s_3888[er]: add MNXMID MNXM2370, add metKEGGID C00621"	[]	[]	[]	[]
+s_3908[m]	MNXM201	[]	[]	C00269	[]	[]	CHEBI:58332	CHEBI:17962	[]	r_4251	| metFormula in MNX database (C14H17N3O15P2R2) with metCharge -2 is a conjugate base of CDP-diacylglycerol (C14H19N3O15P2R2)	[]	[]	"| Changed from CHEBI:58332 to CHEBI:17962 (conjugate acid of CHEBI:58332) in model, for all metabolites with metName CDP-diacylglycerol"	[]
+s_3910[c]	MNXM37826	MNXM722955	[]	C20784	[]	[]	CHEBI:134399	[]	[]	r_4252	s_3910[c]: changed MNXMID MNXM37826 to MNXM722955	| MNXMID MNXM37826 is deprecated in MNX database	[]	[]	[]
+s_3912[er]	[]	MNXM9258	[]	[]	G10599	[]	[]	[]	[]	r_4253	s_3912[er]: added new MNXMID MNXM9258 into model	[]	|G10599 not added into model due to SPML formatting issue	[]	[]
+s_3912[er]	[]	MNXM9258	[]	[]	G10599	[]	[]	[]	[]	r_4321	s_3912[er]: added new MNXMID MNXM9258 into model	[]	|G10599 not added into model due to SPML formatting issue	[]	[]
+s_3932[er]	[]	MNXM9328	[]	[]	G00012	[]	[]	[]	[]	r_4271	s_3932[er]: added new MNXMID MNXM9328 into model	[]	|G00012 not added into model due to SPML formatting issue	[]	[]
+s_3942[p]	[]	MNXM4425	[]	C19967	[]	[]	[]	[]	[]	r_4279	s_3942[p]: added new MNXMID MNXM4425 into model	[]	[]	[]	[]
+s_3943[p]	[]	MNXM2497	[]	C19968	[]	[]	[]	[]	[]	r_4279	s_3943[p]: added new MNXMID MNXM2497 into model	[]	[]	[]	[]
+s_3993[er]	[]	MNXM9262	[]	[]	G10595	[]	[]	[]	[]	r_4313	s_3993[er]: added new MNXMID MNXM9262 into model	[]	|G10595 not added into model due to SPML formatting issue	[]	[]
+s_3994[er]	[]	MNXM9265	[]	[]	G10596	[]	[]	[]	[]	r_4313	s_3994[er]: added new MNXMID MNXM9265 into model	[]	|G10596 not added into model due to SPML formatting issue	[]	[]
+s_3996[er]	[]	MNXM31425	[]	[]	G00007	[]	[]	[]	[]	r_4320	s_3996[er]: added new MNXMID MNXM31425 into model	[]	|G00007 not added into model due to SPML formatting issue	[]	[]
+s_4001[er]	[]	MNXM9336	[]	[]	G10598	[]	[]	[]	[]	r_4320	s_4001[er]: added new MNXMID MNXM9336 into model	[]	|G10598 not added into model due to SPML formatting issue	[]	[]
+s_4002[er]	[]	MNXM7903	[]	[]	G00149	[]	[]	[]	[]	r_4322	s_4002[er]: added new MNXMID MNXM7903 into model	| MNXM7903 is linked to KEGGID G00149 as external resource	|G00149 not added into model due to SPML formatting issue	[]	[]
+s_4003[er]	[]	MNXM9266	[]	[]	G00140	[]	[]	[]	[]	r_4322	s_4003[er]: added new MNXMID MNXM9266 into model	| MNXM9266 is linked to KEGGID G00140 as external resource	|G00140 not added into model due to SPML formatting issue	[]	[]
+s_4122[c]	MNXM61741	MNXM724960	[]	[]	[]	[]	CHEBI:320061	[]	[]	r_4390	s_4122[c]: changed MNXMID MNXM61741 to MNXM724960	| MNXMID MNXM61741 is deprecated in MNX database	[]	[]	[]
+%															

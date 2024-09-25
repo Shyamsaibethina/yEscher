@@ -1,0 +1,26 @@
+mag;1-monoglyceride
+dag;diglyceride
+dag2p;1,2-diacylglycerol 3-diphosphate
+cdpdag;CDP-diacylglycerol
+tag;triglyceride
+pa;phosphatidate
+ps;phosphatidyl-L-serine
+agps;1-acylglycerophosphoserine
+pe;phosphatidylethanolamine
+mmpe;phosphatidyl-N-methylethanolamine
+dmpe;phosphatidyl-N,N-dimethylethanolamine
+agpe;1-acylglycerophosphoethanolamine
+pc;phosphatidylcholine
+agpc;1-acylglycerophosphocholine
+lcb;long-chain base
+pail;1-phosphatidyl-1D-myo-inositol
+lpi;sn-2-acyl-1-lysophosphatidylinositol
+cer;ceramide
+ipc;inositol-P-ceramide
+mipc;mannosylinositol phosphorylceramide
+mip2c;inositol phosphomannosylinositol phosphoceramide
+pg1p;3-(3-sn-phosphatidyl)-sn-glycerol 1-phosphate
+agp;acylglycerone phosphate
+pg;phosphatidylglycerol
+cl;cardiolipin
+mlcl;monolysocardiolipin

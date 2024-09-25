@@ -1,0 +1,12 @@
+rxnNames	grRules	lb	ub	rev	subSystems	eccodes	rxnNotes	rxnReferences	rxnConfidenceScores	kegg.reaction	kegg.pathway	bigg.reaction	metanetx.reaction	brenda	biocyc	reactome	sabiork.reaction	seed.reactions	rhea
+hydrogen sulfide transport	YIL166C	0	1000	0	Transport[c, e]		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
+"L-cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming)"	YFR055W	-1000	1000	1	Sulfur metabolism	4.4.1.28	Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046		R00782	sce00280								
+L-cysteine:2-oxoglutarate aminotransferase		-1000	1000	1	Sulfur metabolism	2.6.1.1	Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046		R00896	sce00280								
+3-mercaptopyruvate sulfurtransferase	YOR251C	-1000	1000	1	Sulfur metabolism	2.8.1.2	Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046		R03105									
+alkanesulfonate transport	YIL166C	0	1000	0	Transport[c, e]		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
+taurocholate transport	YIL166C	0	1000	0	Transport[c, e]		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
+alkanesulfonate dioxygenase	YLL057C	-1000	1000	1	Sulfur metabolism		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
+trithionate thiosulfohydrolase		-1000	1000	1	Sulfur metabolism	3.12.1.1	Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046		R01930									
+hydrogen sulfide exchange		0	1000	0	Exchange reaction		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
+alkanesulfonate exchange		0	1000	0	Exchange reaction		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											
+taurocholate exchange		0	1000	0	Exchange reaction		Sulfur volatiles curation (PR #296)	10.1093/femsyr/foy046											

@@ -1,0 +1,33 @@
+index	rxnNames	grRules	location
+9	cytidine kinase (ATP)	YNR012W	https://www.uniprot.org/uniprotkb/P27515/entry#subcellular_location
+14	D-glyceraldehyde kinase	(YML070W or YFL053W)	"https://www.uniprot.org/uniprotkb/P54838/entry#subcellular_location;https://www.uniprot.org/uniprotkb/P43550/entry#subcellular_location"
+17	adenosine phosphorylase	YLR209C	https://www.uniprot.org/uniprotkb/Q05788/entry#subcellular_location
+18	D-glucose 1-epimerase	YBR019C	https://www.uniprot.org/uniprotkb/P04397/entry#subcellular_location
+40	D-phenylalanine N-acetyltransferase	(YEL066W or YPR193C)	"https://www.uniprot.org/uniprotkb/P39979/entry;https://www.uniprot.org/uniprotkb/Q06592/entry#subcellular_location"
+56	S-adenosylmethioninamine:cadaverine 3-aminopropyltransferase	(YPR069C or YLR146C)	"https://www.uniprot.org/uniprotkb/Q12074/entry#subcellular_location;https://www.uniprot.org/uniprotkb/Q12455/entry#subcellular_location"
+63	thiamine phosphate synthase	YPL214C	https://www.uniprot.org/uniprotkb/P41835/entry#subcellular_location
+65	flavin prenyltransferase	YDR538W	https://www.uniprot.org/uniprotkb/P33751/entry
+66	(R)-2-hydroxyglutarate:pyruvate oxidoreductase	(YDL178W or YEL071W)	"https://www.uniprot.org/uniprotkb/P46681/entry#subcellular_location;https://www.uniprot.org/uniprotkb/P39976/entry#subcellular_location"
+70	cytidine nucleosidase	YDR400W	https://www.uniprot.org/uniprotkb/Q04179/entry#subcellular_location
+77	D-ribulokinase	YDR109C	https://www.uniprot.org/uniprotkb/Q04585/entry#subcellular_location
+96	deoxyguanosine phosphorylase	YLR209C	https://www.uniprot.org/uniprotkb/Q05788/entry#subcellular_location
+102	deamino-NAD diphosphatase	YGL067W	https://www.uniprot.org/uniprotkb/P53164/entry#subcellular_location
+104	trans-4-hydroxy-L-proline dehydrogenase	YER023W	https://www.uniprot.org/uniprotkb/P32263/entry#subcellular_location
+109	3-hydroxykynurenine aminotransferase (2-oxoglutarate)	YJL060W	https://www.uniprot.org/uniprotkb/P47039/entry#subcellular_location
+113	(S)-3-hydroxyisobutyryl-CoA hydrolase	YDR036C	https://www.uniprot.org/uniprotkb/P28817/entry#subcellular_location
+116	meso-2,3-butanediol dehydrogenase	(YAL061W or YAL060W)	"https://www.uniprot.org/uniprotkb/P39713/entry#subcellular_location;https://www.uniprot.org/uniprotkb/P39714/entry#subcellular_location"
+121	5-methylcytosine deaminase	YPR062W	https://www.uniprot.org/uniprotkb/Q12178/entry#subcellular_location
+130	ureidoglycolate hydrolase	YIR032C	https://www.uniprot.org/uniprotkb/P32459/entry#subcellular_location
+160	guanylate cyclase	YJL005W	https://www.uniprot.org/uniprotkb?query=YJL005W
+168	kynurenine aminotransferase (2-oxoglutarate)	YJL060W	https://www.uniprot.org/uniprotkb/P47039/entry#subcellular_location
+184	farnesyl diphosphatase	YDR481C	https://www.uniprot.org/uniprotkb/P11491/entry#subcellular_location
+205	bis(5'-adenosyl)-triphosphatase	YDR305C	https://www.uniprot.org/uniprotkb/P49775/entry#subcellular_location
+220	nucleoside diphosphate kinase	YKL067W	https://www.uniprot.org/uniprotkb/P36010/entry#subcellular_location
+221	nucleoside diphosphate kinase	YKL067W	https://www.uniprot.org/uniprotkb/P36010/entry#subcellular_location
+222	nucleoside diphosphate kinase	YKL067W	https://www.uniprot.org/uniprotkb/P36010/entry#subcellular_location
+223	nucleoside diphosphate kinase	YKL067W	https://www.uniprot.org/uniprotkb/P36010/entry#subcellular_location
+224	nucleoside diphosphate kinase	YKL067W	https://www.uniprot.org/uniprotkb/P36010/entry#subcellular_location
+225	nucleoside diphosphate kinase	YKL067W	https://www.uniprot.org/uniprotkb/P36010/entry#subcellular_location
+226	nucleoside diphosphate kinase	YKL067W	https://www.uniprot.org/uniprotkb/P36010/entry#subcellular_location
+227	nucleoside diphosphate kinase	YKL067W	https://www.uniprot.org/uniprotkb/P36010/entry#subcellular_location
+228	nucleoside diphosphate kinase	YKL067W	https://www.uniprot.org/uniprotkb/P36010/entry#subcellular_location

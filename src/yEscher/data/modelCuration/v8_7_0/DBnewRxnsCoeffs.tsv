@@ -1,0 +1,138 @@
+index	rxnNames	metNames	comps	coefficient
+9	cytidine kinase (ATP)	ATP	c	-1
+9	cytidine kinase (ATP)	cytidine	c	-1
+9	cytidine kinase (ATP)	ADP	c	1
+9	cytidine kinase (ATP)	CMP	c	1
+9	cytidine kinase (ATP)	H+	c	1
+14	D-glyceraldehyde kinase	ATP	c	-1
+14	D-glyceraldehyde kinase	D-glyceraldehyde	c	-1
+14	D-glyceraldehyde kinase	ADP	c	1
+14	D-glyceraldehyde kinase	glyceraldehyde 3-phosphate	c	1
+14	D-glyceraldehyde kinase	H+	c	1
+17	adenosine phosphorylase	phosphate	c	-1
+17	adenosine phosphorylase	adenosine	c	-1
+17	adenosine phosphorylase	adenine	c	1
+17	adenosine phosphorylase	alpha-D-ribose 1-phosphate(2-)	c	1
+18	D-glucose 1-epimerase	alpha-D-Glucose	c	-1
+18	D-glucose 1-epimerase	beta-D-Glucose	c	1
+40	D-phenylalanine N-acetyltransferase	acetyl-CoA	c	-1
+40	D-phenylalanine N-acetyltransferase	D-phenylalanine	c	-1
+40	D-phenylalanine N-acetyltransferase	coenzyme A	c	1
+40	D-phenylalanine N-acetyltransferase	N-acetyl-D-phenylalanine	c	1
+56	S-adenosylmethioninamine:cadaverine 3-aminopropyltransferase	S-adenosylmethioninamine	c	-1
+56	S-adenosylmethioninamine:cadaverine 3-aminopropyltransferase	cadaverine	c	-1
+56	S-adenosylmethioninamine:cadaverine 3-aminopropyltransferase	5'-S-methyl-5'-thioadenosine	c	1
+56	S-adenosylmethioninamine:cadaverine 3-aminopropyltransferase	aminopropylcadaverine	c	1
+56	S-adenosylmethioninamine:cadaverine 3-aminopropyltransferase	H+	c	1
+63	thiamine phosphate synthase	4-amino-2-methyl-5-diphosphomethylpyrimidine	c	-1
+63	thiamine phosphate synthase	H+	c	-2
+63	thiamine phosphate synthase	2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate	c	-1
+63	thiamine phosphate synthase	carbon dioxide	c	1
+63	thiamine phosphate synthase	diphosphate	c	1
+63	thiamine phosphate synthase	TMP	c	1
+65	flavin prenyltransferase	FMNH2	m	-1
+65	flavin prenyltransferase	dimethylallyl phosphate	m	-1
+65	flavin prenyltransferase	phosphate	m	1
+65	flavin prenyltransferase	prenylated FMNH2	m	1
+66	(R)-2-hydroxyglutarate:pyruvate oxidoreductase	pyruvate	m	-1
+66	(R)-2-hydroxyglutarate:pyruvate oxidoreductase	2-hydroxyglutarate	m	-1
+66	(R)-2-hydroxyglutarate:pyruvate oxidoreductase	2-oxoglutarate	m	1
+66	(R)-2-hydroxyglutarate:pyruvate oxidoreductase	(R)-lactate	m	1
+70	cytidine nucleosidase	cytidine	c	-1
+70	cytidine nucleosidase	H2O	c	-1
+70	cytidine nucleosidase	cytosine	c	1
+70	cytidine nucleosidase	D-ribose	c	1
+77	D-ribulokinase	ATP	c	-1
+77	D-ribulokinase	D-ribulose	c	-1
+77	D-ribulokinase	ADP	c	1
+77	D-ribulokinase	H+	c	1
+77	D-ribulokinase	D-ribulose 5-phosphate	c	1
+96	deoxyguanosine phosphorylase	phosphate	c	-1
+96	deoxyguanosine phosphorylase	2'-deoxyguanosine	c	-1
+96	deoxyguanosine phosphorylase	guanine	c	1
+96	deoxyguanosine phosphorylase	2-deoxy-D-ribose 1-phosphate	c	1
+102	deamino-NAD diphosphatase	H2O	p	-1
+102	deamino-NAD diphosphatase	deamido-NAD(+)	p	-1
+102	deamino-NAD diphosphatase	AMP	p	1
+102	deamino-NAD diphosphatase	H+	p	2
+102	deamino-NAD diphosphatase	nicotinic acid D-ribonucleotide	p	1
+104	trans-4-hydroxy-L-proline dehydrogenase	NAD	c	-1
+104	trans-4-hydroxy-L-proline dehydrogenase	trans-4-hydroxy-L-proline	c	-1
+104	trans-4-hydroxy-L-proline dehydrogenase	NADH	c	1
+104	trans-4-hydroxy-L-proline dehydrogenase	H+	c	2
+104	trans-4-hydroxy-L-proline dehydrogenase	1-pyrroline-3-hydroxy-5-carboxylic acid	c	1
+109	3-hydroxykynurenine aminotransferase (2-oxoglutarate)	2-oxoglutarate	c	-1
+109	3-hydroxykynurenine aminotransferase (2-oxoglutarate)	3-hydroxy-L-kynurenine	c	-1
+109	3-hydroxykynurenine aminotransferase (2-oxoglutarate)	L-glutamate	c	1
+109	3-hydroxykynurenine aminotransferase (2-oxoglutarate)	xanthurenate	c	1
+109	3-hydroxykynurenine aminotransferase (2-oxoglutarate)	H2O	c	1
+113	(S)-3-hydroxyisobutyryl-CoA hydrolase	H2O	m	-1
+113	(S)-3-hydroxyisobutyryl-CoA hydrolase	3-hydroxyisobutyryl-CoA	m	-1
+113	(S)-3-hydroxyisobutyryl-CoA hydrolase	coenzyme A	m	1
+113	(S)-3-hydroxyisobutyryl-CoA hydrolase	3-hydroxyisobutyrate	m	1
+113	(S)-3-hydroxyisobutyryl-CoA hydrolase	H+	m	1
+116	meso-2,3-butanediol dehydrogenase	NAD	c	-1
+116	meso-2,3-butanediol dehydrogenase	meso-2,3-butanediol	c	-1
+116	meso-2,3-butanediol dehydrogenase	NADH	c	1
+116	meso-2,3-butanediol dehydrogenase	H+	c	1
+116	meso-2,3-butanediol dehydrogenase	acetoin	c	1
+121	5-methylcytosine deaminase	5-methylcytosine	c	-1
+121	5-methylcytosine deaminase	H+	c	-1
+121	5-methylcytosine deaminase	H2O	c	-1
+121	5-methylcytosine deaminase	ammonium	c	1
+121	5-methylcytosine deaminase	thymine	c	1
+130	ureidoglycolate hydrolase	ureidoglycolic acid	c	-1
+130	ureidoglycolate hydrolase	glyoxylate	c	1
+130	ureidoglycolate hydrolase	urea	c	1
+160	guanylate cyclase	GTP	c	-1
+160	guanylate cyclase	diphosphate	c	1
+160	guanylate cyclase	3',5'-cyclic GMP	c	1
+168	kynurenine aminotransferase (2-oxoglutarate)	2-oxoglutarate	c	-1
+168	kynurenine aminotransferase (2-oxoglutarate)	L-kynurenine	c	-1
+168	kynurenine aminotransferase (2-oxoglutarate)	L-glutamate	c	1
+168	kynurenine aminotransferase (2-oxoglutarate)	4-(2-aminophenyl)-2,4-dioxobutanoate	c	1
+184	farnesyl diphosphatase	farnesyl diphosphate	c	-1
+184	farnesyl diphosphatase	H2O	c	-1
+184	farnesyl diphosphatase	farnesol	c	1
+184	farnesyl diphosphatase	diphosphate	c	1
+205	bis(5'-adenosyl)-triphosphatase	H2O	c	-1
+205	bis(5'-adenosyl)-triphosphatase	P(1),P(3)-bis(5'-adenosyl) triphosphate	c	-1
+205	bis(5'-adenosyl)-triphosphatase	ADP	c	1
+205	bis(5'-adenosyl)-triphosphatase	AMP	c	1
+205	bis(5'-adenosyl)-triphosphatase	H+	c	2
+220	nucleoside diphosphate kinase	ATP	m	-1
+220	nucleoside diphosphate kinase	CDP	m	-1
+220	nucleoside diphosphate kinase	ADP	m	1
+220	nucleoside diphosphate kinase	CTP	m	1
+221	nucleoside diphosphate kinase	ATP	m	-1
+221	nucleoside diphosphate kinase	dADP	m	-1
+221	nucleoside diphosphate kinase	ADP	m	1
+221	nucleoside diphosphate kinase	dATP	m	1
+222	nucleoside diphosphate kinase	ATP	m	-1
+222	nucleoside diphosphate kinase	dCDP	m	-1
+222	nucleoside diphosphate kinase	ADP	m	1
+222	nucleoside diphosphate kinase	dCTP	m	1
+223	nucleoside diphosphate kinase	ATP	m	-1
+223	nucleoside diphosphate kinase	dGDP	m	-1
+223	nucleoside diphosphate kinase	ADP	m	1
+223	nucleoside diphosphate kinase	dGTP	m	1
+224	nucleoside diphosphate kinase	ATP	m	-1
+224	nucleoside diphosphate kinase	dTDP	m	-1
+224	nucleoside diphosphate kinase	ADP	m	1
+224	nucleoside diphosphate kinase	dTTP	m	1
+225	nucleoside diphosphate kinase	ATP	m	-1
+225	nucleoside diphosphate kinase	GDP	m	-1
+225	nucleoside diphosphate kinase	ADP	m	1
+225	nucleoside diphosphate kinase	GTP	m	1
+226	nucleoside diphosphate kinase	ATP	m	-1
+226	nucleoside diphosphate kinase	IDP	m	-1
+226	nucleoside diphosphate kinase	ADP	m	1
+226	nucleoside diphosphate kinase	ITP	m	1
+227	nucleoside diphosphate kinase	ATP	m	-1
+227	nucleoside diphosphate kinase	dIDP	m	-1
+227	nucleoside diphosphate kinase	ADP	m	1
+227	nucleoside diphosphate kinase	dITP	m	1
+228	nucleoside diphosphate kinase	ATP	m	-1
+228	nucleoside diphosphate kinase	dUDP	m	-1
+228	nucleoside diphosphate kinase	ADP	m	1
+228	nucleoside diphosphate kinase	dUTP	m	1

@@ -1,0 +1,187 @@
+rxnID	coefficient	metabolite standard name	Metabolite_type	component
+r_4629	1	hexanoyl-CoA	reactant	mitochondrion
+r_4629	1	ethanol	reactant	mitochondrion
+r_4629	1	ethyl hexanoate	product	mitochondrion
+r_4629	1	coenzyme A	product	mitochondrion
+r_4630	1	octanoyl-CoA	reactant	mitochondrion
+r_4630	1	ethanol	reactant	mitochondrion
+r_4630	1	ethyl octanoate	product	mitochondrion
+r_4630	1	coenzyme A	product	mitochondrion
+r_4631	1	butanoyl-CoA	reactant	mitochondrion
+r_4631	1	ethanol	reactant	mitochondrion
+r_4631	1	 ethyl butanoate	product	mitochondrion
+r_4631	1	coenzyme A	product	mitochondrion
+r_4632	1	acetyl-CoA	reactant	mitochondrion
+r_4632	1	hexanol	reactant	mitochondrion
+r_4632	1	hexyl acetate	product	mitochondrion
+r_4632	1	coenzyme A	product	mitochondrion
+r_4633	1	decanoyl-CoA	reactant	mitochondrion
+r_4633	1	ethanol	reactant	mitochondrion
+r_4633	1	ethyl decanoate	product	mitochondrion
+r_4633	1	coenzyme A	product	mitochondrion
+r_4634	1	ethyl hexanoate	reactant	mitochondrion
+r_4634	1	ethyl hexanoate	product	cytoplasm
+r_4635	1	ethyl octanoate	reactant	mitochondrion
+r_4635	1	ethyl octanoate	product	cytoplasm
+r_4636	1	ethyl butanoate	reactant	mitochondrion
+r_4636	1	ethyl butanoate	product	cytoplasm
+r_4637	1	hexyl acetate	reactant	mitochondrion
+r_4637	1	hexyl acetate	product	cytoplasm
+r_4638	1	ethyl decanoate	reactant	mitochondrion
+r_4638	1	ethyl decanoate	product	cytoplasm
+r_4639	1	ethyl hexanoate	reactant	cytoplasm
+r_4639	1	ethyl hexanoate	product	extracellular
+r_4640	1	ethyl octanoate	reactant	cytoplasm
+r_4640	1	ethyl octanoate	product	extracellular
+r_4641	1	ethyl butanoate	reactant	cytoplasm
+r_4641	1	ethyl butanoate	product	extracellular
+r_4642	1	hexyl acetate	reactant	cytoplasm
+r_4642	1	hexyl acetate	product	extracellular
+r_4643	1	ethyl decanoate	reactant	cytoplasm
+r_4643	1	ethyl decanoate	product	extracellular
+r_4644	1	ethyl hexanoate	reactant	extracellular
+r_4645	1	ethyl octanoate	reactant	extracellular
+r_4646	1	ethyl butanoate	reactant	extracellular
+r_4647	1	hexyl acetate	reactant	extracellular
+r_4648	1	ethyl decanoate	reactant	extracellular
+r_4649	1	ethanol	reactant	mitochondrion
+r_4649	1	acetyl-CoA	reactant	mitochondrion
+r_4649	1	ethyl acetate	product	mitochondrion
+r_4649	1	coenzyme A	product	mitochondrion
+r_4650	1	ethyl acetate	reactant	mitochondrion
+r_4650	1	ethyl acetate	product	cytoplasm
+r_4651	1	H+	reactant	cytoplasm
+r_4651	1	2-oxobutanoate	reactant	cytoplasm
+r_4651	1	carbon dioxide	product	cytoplasm
+r_4651	1	propanal	product	cytoplasm
+r_4652	1	propanal	reactant	cytoplasm
+r_4652	1	H+	reactant	cytoplasm
+r_4652	1	NADH	reactant	cytoplasm
+r_4652	1	propanol	product	cytoplasm
+r_4652	1	NAD	product	cytoplasm
+r_4653	1	propanal	reactant	mitochondrion
+r_4653	1	H+	reactant	mitochondrion
+r_4653	1	NADH	reactant	mitochondrion
+r_4653	1	propanol	product	mitochondrion
+r_4653	1	NAD	product	mitochondrion
+r_4654	1	propanal	reactant	cytoplasm
+r_4654	1	H+	reactant	cytoplasm
+r_4654	1	NADPH	reactant	cytoplasm
+r_4654	1	propanol	product	cytoplasm
+r_4654	1	NADP(+)	product	cytoplasm
+r_4655	1	propanol	reactant	mitochondrion
+r_4655	1	propanol	product	cytoplasm
+r_4656	1	propanal	reactant	cytoplasm
+r_4656	1	propanal	product	extracellular
+r_4657	1	propanol	reactant	cytoplasm
+r_4657	1	propanol	product	extracellular
+r_4658	1	propanal	reactant	extracellular
+r_4659	1	propanol	reactant	extracellular
+r_4660	1	H+	reactant	cytoplasm
+r_4660	1	4-methylthio-2-oxobutanoate	reactant	cytoplasm
+r_4660	1	carbon dioxide	product	cytoplasm
+r_4660	1	methional	product	cytoplasm
+r_4661	1	methional	reactant	cytoplasm
+r_4661	1	H+	reactant	cytoplasm
+r_4661	1	NADH	reactant	cytoplasm
+r_4661	1	methionol	product	cytoplasm
+r_4661	1	NAD	product	cytoplasm
+r_4662	1	methional	reactant	mitochondrion
+r_4662	1	H+	reactant	mitochondrion
+r_4662	1	NADH	reactant	mitochondrion
+r_4662	1	methionol	product	mitochondrion
+r_4662	1	NAD	product	mitochondrion
+r_4663	1	methional	reactant	cytoplasm
+r_4663	1	H+	reactant	cytoplasm
+r_4663	1	NADPH	reactant	cytoplasm
+r_4663	1	methionol	product	cytoplasm
+r_4663	1	NADP(+)	product	cytoplasm
+r_4664	1	methionol	reactant	mitochondrion
+r_4664	1	methionol	product	cytoplasm
+r_4665	1	methional	reactant	cytoplasm
+r_4665	1	methional	product	extracellular
+r_4666	1	methionol	reactant	cytoplasm
+r_4666	1	methionol	product	extracellular
+r_4667	1	methional	reactant	extracellular
+r_4668	1	methionol	reactant	extracellular
+r_4669	1	H+	reactant	cytoplasm
+r_4669	1	3-(4-hydroxyphenyl)pyruvate	reactant	cytoplasm
+r_4669	1	carbon dioxide	product	cytoplasm
+r_4669	1	(4-hydroxyphenyl)acetaldehyde	product	cytoplasm
+r_4670	1	(4-hydroxyphenyl)acetaldehyde	reactant	cytoplasm
+r_4670	1	H+	reactant	cytoplasm
+r_4670	1	NADH	reactant	cytoplasm
+r_4670	1	tyrosol	product	cytoplasm
+r_4670	1	NAD	product	cytoplasm
+r_4671	1	(4-hydroxyphenyl)acetaldehyde	reactant	mitochondrion
+r_4671	1	H+	reactant	mitochondrion
+r_4671	1	NADH	reactant	mitochondrion
+r_4671	1	tyrosol	product	mitochondrion
+r_4671	1	NAD	product	mitochondrion
+r_4672	1	(4-hydroxyphenyl)acetaldehyde	reactant	cytoplasm
+r_4672	1	H+	reactant	cytoplasm
+r_4672	1	NADPH	reactant	cytoplasm
+r_4672	1	tyrosol	product	cytoplasm
+r_4672	1	NADP(+)	product	cytoplasm
+r_4673	1	tyrosol	reactant	mitochondrion
+r_4673	1	tyrosol	product	cytoplasm
+r_4674	1	(4-hydroxyphenyl)acetaldehyde	reactant	cytoplasm
+r_4674	1	(4-hydroxyphenyl)acetaldehyde	product	extracellular
+r_4675	1	tyrosol	reactant	cytoplasm
+r_4675	1	tyrosol	product	extracellular
+r_4676	1	(4-hydroxyphenyl)acetaldehyde	reactant	extracellular
+r_4677	1	tyrosol	reactant	extracellular
+r_4678	1	propanal	reactant	cytoplasm
+r_4678	1	NAD	reactant	cytoplasm
+r_4678	1	H2O	reactant	cytoplasm
+r_4678	1	propionate	product	cytoplasm
+r_4678	1	H+	product	cytoplasm
+r_4678	1	NADH	product	cytoplasm
+r_4679	1	ATP	reactant	peroxisome
+r_4679	1	coenzyme A	reactant	peroxisome
+r_4679	1	propionate	reactant	peroxisome
+r_4679	1	AMP	product	peroxisome
+r_4679	1	propionyl-CoA	product	peroxisome
+r_4679	1	diphosphate	product	peroxisome
+r_4680	1	propionyl-CoA	reactant	mitochondrion
+r_4680	1	ethanol	reactant	mitochondrion
+r_4680	1	ethyl propionate	product	mitochondrion
+r_4680	1	coenzyme A	product	mitochondrion
+r_4681	1	propionyl-CoA	reactant	peroxisome
+r_4681	1	propionyl-CoA	product	mitochondrion
+r_4682	1	butanoyl-CoA	reactant	peroxisome
+r_4682	1	butanoyl-CoA	product	mitochondrion
+r_4683	1	hexanoyl-CoA	reactant	peroxisome
+r_4683	1	hexanoyl-CoA	product	mitochondrion
+r_4684	1	octanoyl-CoA	reactant	peroxisome
+r_4684	1	octanoyl-CoA	product	mitochondrion
+r_4685	1	decanoyl-CoA	reactant	peroxisome
+r_4685	1	decanoyl-CoA	product	mitochondrion
+r_4686	1	propionate	reactant	peroxisome
+r_4686	1	propionate	product	cytoplasm
+r_4687	1	acetyl-CoA	reactant	cytoplasm
+r_4687	1	tyrosol	reactant	cytoplasm
+r_4687	1	coenzyme A	product	cytoplasm
+r_4687	1	tyrosyl acetate	product	cytoplasm
+r_4688	1	tyrosyl acetate	reactant	cytoplasm
+r_4688	1	tyrosyl acetate	product	extracellular
+r_4689	1	tyrosyl acetate	reactant	extracellular
+r_4690	1	acetyl-CoA	reactant	cytoplasm
+r_4690	1	methionol	reactant	cytoplasm
+r_4690	1	coenzyme A	product	cytoplasm
+r_4690	1	methionyl acetate	product	cytoplasm
+r_4691	1	methionyl acetate	reactant	cytoplasm
+r_4691	1	methionyl acetate	product	extracellular
+r_4692	1	methionyl acetate	reactant	extracellular
+r_4693	1	acetyl-CoA	reactant	cytoplasm
+r_4693	1	propanol	reactant	cytoplasm
+r_4693	1	coenzyme A	product	cytoplasm
+r_4693	1	propyl acetate	product	cytoplasm
+r_4694	1	propyl acetate	reactant	cytoplasm
+r_4694	1	propyl acetate	product	extracellular
+r_4695	1	propyl acetate	reactant	extracellular
+r_4697	1	ethyl propionate	reactant	mitochondrion
+r_4697	1	ethyl propionate	product	cytoplasm
+r_4698	1	ethyl propionate	reactant	cytoplasm
+r_4698	1	ethyl propionate	product	extracellular
+r_4699	1	ethyl propionate	reactant	extracellular
