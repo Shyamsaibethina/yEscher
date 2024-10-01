@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name="yescher",              
-    version="0.2.21",              
+    version="1.0.0",              
     packages=find_packages(where='src'),     
     include_package_data=True, 
     package_dir={"": "src"},
