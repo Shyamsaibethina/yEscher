@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name="yescher",              
-    version="1.0.0",              
+    version="1.0.1",              
     packages=find_packages(where='src'),     
     include_package_data=True, 
     package_dir={"": "src"},
@@ -41,6 +41,8 @@ setup(
     ],
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4',
     description='Simulate metabolic flux distributions, gene knockouts, and dynamic modeling for S. cerevisiae',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     keywords=['yeast', 'escher', 'pytfa','ME models','thermodynamics','flux analysis','expression'],
 
     license='MIT',
