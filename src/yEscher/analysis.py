@@ -24,7 +24,7 @@ GROWTH_RXN_ID = 'r_4041'
 
 
 # Load models
-def load_models(etfl_model_path, cobra_model_path=None):
+def load_models(etfl_model_path: str, cobra_model_path: str = None) -> tuple:
     """
     Load and return the eTFLa and COBRA models for simulation.
 
@@ -38,7 +38,7 @@ def load_models(etfl_model_path, cobra_model_path=None):
     return ctrl_model, cobra_model
 
 # Uptake reactions
-def get_uptake_reactions():
+def get_uptake_reactions() -> tuple:
     """
     Retrieve constrained and unconstrained substrate uptake reactions.
 
@@ -60,7 +60,7 @@ def get_uptake_reactions():
     ]
     return constrained_uptake, unconstrained_uptake
 
-def _chemostat_sim(model):
+def _chemostat_sim(model: object) -> None:
     """
     Apply modifications to the model's reactions for simulating a chemostat environment.
 
@@ -85,7 +85,7 @@ def _chemostat_sim(model):
         if ub is not None:
             rxn.upper_bound = ub
 
-def _prep_sol(substrate_uptake, model):
+def _prep_sol(substrate_uptake: float, model: object) -> pd.Series:
     """
     Prepare solution results for flux distribution and enzyme analysis.
 
@@ -108,7 +108,7 @@ def _prep_sol(substrate_uptake, model):
     
     return pd.Series(ret)
 
-def knockout(growth_rate, knockouts, map_file_path, csv_file_path, map_name, etfl_model_path, cobra_model_path=None):
+def knockout(growth_rate: float, knockouts: list, map_file_path: str, csv_file_path: str, map_name: str, etfl_model_path: str, cobra_model_path: str = None) -> None:
     """
     Perform gene knockouts and simulate the metabolic model.
 
@@ -189,7 +189,7 @@ def knockout(growth_rate, knockouts, map_file_path, csv_file_path, map_name, etf
         # Save and process results
         save_and_process_results(data[knockout], knockout, csv_file_path, map_file_path, map_name, cobra_model)
 
-def save_and_process_results(sol, knockout, csv_file_path, map_file_path, map_name, cobra_model):
+def save_and_process_results(sol: pd.Series, knockout: str, csv_file_path: str, map_file_path: str, map_name: str, cobra_model: object) -> None:
     """
     Save the results of the knockout simulation and generate a metabolic map visualization.
 
@@ -223,7 +223,7 @@ def save_and_process_results(sol, knockout, csv_file_path, map_file_path, map_na
     map.reaction_data = flux_dictionary_name
     map.save_html(f"{map_file_path}/{knockout}_knockout_map.html")
 
-def perform_flux_variability_analysis(model, reactions: List[str] = None, fraction_of_optimum: float = 1.0):
+def perform_flux_variability_analysis(model: object, reactions: List[str] = None, fraction_of_optimum: float = 1.0) -> pd.DataFrame:
     """
     Perform Flux Variability Analysis (FVA) on the model.
     
@@ -241,7 +241,7 @@ def perform_flux_variability_analysis(model, reactions: List[str] = None, fracti
                                            fraction_of_optimum=fraction_of_optimum)
     return fva_result
 
-def identify_essential_genes(model, threshold: float = 0.01):
+def identify_essential_genes(model: object, threshold: float = 0.01) -> List[str]:
     """
     Identify essential genes in the model.
     
@@ -255,7 +255,7 @@ def identify_essential_genes(model, threshold: float = 0.01):
     essential_genes = deletion_results[deletion_results['growth'] < threshold].index.tolist()
     return essential_genes
 
-def simulate_medium_changes(model, medium_changes: Dict[str, float]):
+def simulate_medium_changes(model: object, medium_changes: Dict[str, float]) -> object:
     """
     Simulate changes in the growth medium.
     
@@ -270,7 +270,7 @@ def simulate_medium_changes(model, medium_changes: Dict[str, float]):
             print(f"Warning: Reaction {rxn_id} not found in the model.")
     return model
 
-def calculate_yield(model, product_id: str, substrate_id: str):
+def calculate_yield(model: object, product_id: str, substrate_id: str) -> float:
     """
     Calculate the theoretical yield of a product from a substrate.
     
@@ -288,7 +288,7 @@ def calculate_yield(model, product_id: str, substrate_id: str):
         return 0
     return product_flux / substrate_flux
 
-def add_metabolite_drain(model, metabolite_id: str, lb: float = 0, ub: float = 1000):
+def add_metabolite_drain(model: object, metabolite_id: str, lb: float = 0, ub: float = 1000) -> object:
     """
     Add a drain reaction for a specific metabolite.
     
@@ -312,7 +312,7 @@ def add_metabolite_drain(model, metabolite_id: str, lb: float = 0, ub: float = 1
     model.add_reactions([drain_reaction])
     return model
 
-def compare_flux_distributions(flux_dist1: pd.Series, flux_dist2: pd.Series, threshold: float = 1e-6):
+def compare_flux_distributions(flux_dist1: pd.Series, flux_dist2: pd.Series, threshold: float = 1e-6) -> pd.DataFrame:
     """
     Compare two flux distributions and identify significant differences.
     
