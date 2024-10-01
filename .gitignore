@@ -3,3 +3,8 @@
 *.DS_Store
 *logs
 *__pycache__
+*requirements.txt
+*.pypirc
+*egg-info
+*setup.py
+*build

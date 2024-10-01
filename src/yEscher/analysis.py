@@ -1,28 +1,50 @@
-import yeastModel.io as io
+import os
+os.environ['OPTLANG_USE_SYMENGINE'] = "false"
+
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+import yEscher.yeastModel.io as io
 from escher import Builder
 from cobra.util.solver import set_objective
 from pytfa.optim.utils import symbol_sum
-from etfl.etfl.optim.constraints import ModelConstraint
-from etfl.etfl.analysis.dynamic import compute_center
-from etfl.etfl.optim.utils import fix_growth, release_growth, safe_optim
+from yEscher.etfl.etfl.optim.constraints import ModelConstraint
+from yEscher.etfl.etfl.analysis.dynamic import compute_center
+from yEscher.etfl.etfl.optim.utils import fix_growth, release_growth, safe_optim
 from time import time
 import pandas as pd
-from etfl.etfl.io.json import load_json_model
-from cobra import Reaction, Metabolite
-from typing import List, Dict, Union
+from yEscher.etfl.etfl.io.json import load_json_model
+from cobra import Reaction
+from typing import List, Dict
+
 
 # Constants
 GLC_RXN_ID = 'r_1714'
 GROWTH_RXN_ID = 'r_4041'
 
+
 # Load models
 def load_models(etfl_model_path, cobra_model_path=None):
+    """
+    Load and return the eTFLa and COBRA models for simulation.
+
+    :param etfl_model_path: Path to the eTFLa model (in JSON format).
+    :param cobra_model_path: Optional path to the COBRA model (default is None, which loads the default COBRA model).
+    :return: Tuple containing the eTFLa control model and the COBRA model.
+    """
+
     ctrl_model = load_json_model(etfl_model_path)
     cobra_model = io.read_yeast_model() if cobra_model_path is None else io.read_yeast_model(cobra_model_path)
     return ctrl_model, cobra_model
 
 # Uptake reactions
 def get_uptake_reactions():
+    """
+    Retrieve constrained and unconstrained substrate uptake reactions.
+
+    :return: Tuple of lists containing IDs of constrained and unconstrained uptake reactions.
+    """
+
     constrained_uptake = [
         'r_1604', 'r_1639', 'r_1873', 'r_1879', 'r_1880',
         'r_1881', 'r_1671', 'r_1883', 'r_1757', 'r_1891', 'r_1889', 'r_1810',
@@ -39,7 +61,13 @@ def get_uptake_reactions():
     return constrained_uptake, unconstrained_uptake
 
 def _chemostat_sim(model):
-    # Apply reaction modifications
+    """
+    Apply modifications to the model's reactions for simulating a chemostat environment.
+
+    :param model: The metabolic model to modify.
+    :return: None.
+    """
+
     rxn_modifications = {
         'r_1549': (None, 1e-5),  # butanediol secretion
         'r_2033': (None, 0.05),  # pyruvate secretion
@@ -58,6 +86,14 @@ def _chemostat_sim(model):
             rxn.upper_bound = ub
 
 def _prep_sol(substrate_uptake, model):
+    """
+    Prepare solution results for flux distribution and enzyme analysis.
+
+    :param substrate_uptake: The substrate uptake rate.
+    :param model: The metabolic model.
+    :return: A pandas Series object containing the fluxes and enzyme activity data.
+    """
+
     ret = {
         'obj': model.solution.objective_value,
         'mu': model.solution.fluxes.loc[model.growth_reaction.id],
@@ -73,6 +109,19 @@ def _prep_sol(substrate_uptake, model):
     return pd.Series(ret)
 
 def knockout(growth_rate, knockouts, map_file_path, csv_file_path, map_name, etfl_model_path, cobra_model_path=None):
+    """
+    Perform gene knockouts and simulate the metabolic model.
+
+    :param growth_rate: The fixed growth rate for the simulation.
+    :param knockouts: List of gene knockouts to apply.
+    :param map_file_path: Path to save the map output.
+    :param csv_file_path: Path to save CSV output of flux results.
+    :param map_name: Name of the metabolic map for visualization.
+    :param etfl_model_path: Path to the eTFLa model (in JSON format).
+    :param cobra_model_path: Optional path to the COBRA model (default is None).
+    :return: None.
+    """
+    
     ctrl_model, cobra_model = load_models(etfl_model_path, cobra_model_path)
     constrained_uptake, unconstrained_uptake = get_uptake_reactions()
     any_uptake = constrained_uptake + unconstrained_uptake
@@ -138,12 +187,27 @@ def knockout(growth_rate, knockouts, map_file_path, csv_file_path, map_name, etf
         print(f'Elapsed time: {stop - start}')
         
         # Save and process results
-        _save_and_process_results(data[knockout], knockout, csv_file_path, map_file_path, map_name, cobra_model)
+        save_and_process_results(data[knockout], knockout, csv_file_path, map_file_path, map_name, cobra_model)
 
-def _save_and_process_results(sol, knockout, csv_file_path, map_file_path, map_name, cobra_model):
-    sol.to_csv(f"{csv_file_path}{knockout}_knockout.csv")
+def save_and_process_results(sol, knockout, csv_file_path, map_file_path, map_name, cobra_model):
+    """
+    Save the results of the knockout simulation and generate a metabolic map visualization.
+
+    :param sol: Pandas Series containing the flux results of the simulation.
+    :param knockout: The gene knockout applied in this simulation.
+    :param csv_file_path: Directory path to save CSV file containing flux data.
+    :param map_file_path: Directory path to save the metabolic map.
+    :param map_name: Name of the metabolic map.
+    :param cobra_model: COBRA model used in the simulation for annotation.
+    :return: None.
+    """
+    # Check and create output directories if they do not exist
+    os.makedirs(csv_file_path, exist_ok=True)
+    os.makedirs(map_file_path, exist_ok=True)
+
+    sol.to_csv(f"{csv_file_path}/{knockout}_knockout.csv")
     
-    df = pd.read_csv(f"{csv_file_path}{knockout}_knockout.csv", skiprows=4)
+    df = pd.read_csv(f"{csv_file_path}/{knockout}_knockout.csv", skiprows=4)
     df = df.drop(df.columns[1], axis=1)
     df = df[df[df.columns[0]].str.startswith('r_')].reset_index(drop=True)
 
@@ -157,7 +221,7 @@ def _save_and_process_results(sol, knockout, csv_file_path, map_file_path, map_n
 
     map = Builder(map_name=map_name)
     map.reaction_data = flux_dictionary_name
-    map.save_html(f"{map_file_path}{knockout}_knockout_map.html")
+    map.save_html(f"{map_file_path}/{knockout}_knockout_map.html")
 
 def perform_flux_variability_analysis(model, reactions: List[str] = None, fraction_of_optimum: float = 1.0):
     """
@@ -265,10 +329,3 @@ def compare_flux_distributions(flux_dist1: pd.Series, flux_dist2: pd.Series, thr
         'difference': significant_diff
     })
     return result.sort_values('difference', key=abs, ascending=False)
-
-# Example usage
-if __name__ == "__main__":
-    etfl_model_path = "src/yescher_saibe3233/input_model/yeast8_cEFL_2584_enz_128_bins__20240209_125642.json"
-    knockout(0.40, ['YLR044C'], "src/yescher_saibe3233/outputs/",
-             "src/yescher_saibe3233/outputs/", "iMM904.Central carbon metabolism",
-             etfl_model_path)

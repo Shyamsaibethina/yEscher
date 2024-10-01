@@ -1,0 +1,8 @@
+recursive-include src/yEscher/data *
+recursive-include src/yEscher/etfl *
+recursive-include src/yEscher/input_model *
+recursive-include src/yEscher/model *
+recursive-include src/yEscher/outputs *
+recursive-include src/yEscher/yeastModel *
+recursive-include src/yescher/model *.xml
+

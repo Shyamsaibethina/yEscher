@@ -5,15 +5,13 @@ Functions for importing and exporting the yeast model using COBRA from anywhere 
 import csv
 from cobra.io import read_sbml_model, write_sbml_model
 from copy import copy
-from dotenv import find_dotenv
-from os.path import dirname
 
-# find .env + define paths:
-dotenv_path = find_dotenv()
-REPO_PATH = dirname(dotenv_path)
+import os
+
 # MODEL_PATH = f"{REPO_PATH}/model/yeast-GEM.xml"
-MODEL_PATH = "src/yescher_saibe3233/model/yeast-GEM.xml"
 
+# Get the path to the file inside the package
+MODEL_PATH = os.path.join(os.path.dirname(__file__), 'input_model/yeast-GEM.xml')
 
 def read_yeast_model(make_bigg_compliant=False):
     """Reads the SBML file of the yeast model using COBRA.
