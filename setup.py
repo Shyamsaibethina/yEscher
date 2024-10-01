@@ -40,7 +40,7 @@ setup(
     'xlrd<2.0'
     ],
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4',
-    description='Run gene knockouts and analyize S. Cerevisae, built on top of yeastGEM',
+    description='Simulate metabolic flux distributions, gene knockouts, and dynamic modeling for S. cerevisiae',
     keywords=['yeast', 'escher', 'pytfa','ME models','thermodynamics','flux analysis','expression'],
 
     license='MIT',
